@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "style.css.smartphone"/>
-    <link rel = "stylesheet" href = "style.css.desktop"/>
+    <link rel = "stylesheet" href = "styleMobile.css" media="screen and (max-width:640px)"/>
+    <link rel = "stylesheet" href = "styleDesktop.css" media="screen and (min-width:641px)"/>
     <title>Projet1</title>
 </head>
 
@@ -24,18 +24,19 @@
                 </div>
             </div>
         
-<!--div pour bouton rdv-->
+        <!--div pour bouton rdv-->
             <div class="rendezVous">
                 <p><a href ="https://www.doctolib.fr">Prendre un RDV</a></p>
             </div>
         
-<!--div pour menu desktop-->
+        <!--div pour menu desktop-->
             <div class="menu">
-                <div class="accueil">Accueil</div>
-                <div class="lesSoins">Les soins</div>
-                <div class="quiSuisJe">Qui suis-je ?</div>
-                <div class="contact">Contact</div>
+                <div class="accueil"><a href="accueil.html">Accueil</a></div>
+                <div class="lesSoins"><a href="lesSoins.html">Les soins</a></div>
+                <div class="quiSuisJe"><a href="quiSuisJe.html">Qui suis-je ?</a></div>
+                <div class="contact"><a href="contact.html">Contact</a></div>
             </div>
+        
         
 <!--A FAIRE Javascript ! Placer pour Button -->
             <div class="burger"></div>
@@ -45,7 +46,7 @@
 
 <section>
 
-<!--ATTENTION ! CSS à adpater Desktop et Css ! 
+<!--ATTENTION ! CSS à adpater Desktop et Mobile ! 
     En Desktop : id="imgQuiSuisJe" à droite
                  class="containerQuiSuisJe" à gauche-->
 
