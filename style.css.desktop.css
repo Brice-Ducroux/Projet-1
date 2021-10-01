@@ -1,3 +1,22 @@
-.soin > .tarif {
+/* notif pierre.soin > .tarif {*/
 
+/* body  */
+body{ padding: 0; margin:0,
+}
+
+/* css logo */
+.presentation {  display: inline;}
+.nomPrenom{ display: flex; justify-content: center;font-style: italic;
+    size: 2;font-family: 'Courier New', Courier, monospace; align-items: center;flex-direction: column;}
+     
+.logo { margin-right: 0; }
+/* button rdv*/
+.rendezvous{
+   background-color: #25748F;font-family: 'Courier New', Courier, monospace;border-radius: 0ch;
+} 
+/*carossell*/
+section{
+    display: flex;
+    grid-template-columns: auto;
+    border: 0ch;
 }
