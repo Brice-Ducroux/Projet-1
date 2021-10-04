@@ -4,17 +4,22 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel = "stylesheet" href = "style.css.smartphone"/>
-        <link rel = "stylesheet" href = "style.css.desktop"/>
+        <link rel = "stylesheet" href = "style.css.smartphone.css"media="screen and (max-width:640px)"/>
+        <link rel = "stylesheet" href = "style.css.desktop.css"media="screen and (max-width:640px)"/>
+
         <title>Projet1</title>
     </head>
 
     <body>
 <header>
-<div class="header">
 
-<!--div de présentation + logo-->
-    <div class="presentation">
+
+    
+
+<!--navigation bar-->
+<nav>
+
+    <div class="presentation"><!-- prensetation +logo-->
         <div class="logo">
             <img src="https://cdn.discordapp.com/attachments/892066506005950504/893116777071005786/logo.jpg" alt="logo du site"/>
         </div>
@@ -22,47 +27,50 @@
             <h1>Godeline Boy</h1>
             <p>Podologue - 06 67 05 82 17</p>
         </div>
+        <div class="menu"menu>
+            <a href=""> accueil  </a>
+            <a href=""> cqui suis je </a>
+            <a href=""> les soins 
+            <a href=""> contact </a>
+            </a>
+
+        </div>
+        
     </div>
 
+</nav>
 <!--div pour bouton rdv-->
-    <div class="rendezVous">
-        <p><a href ="https://www.doctolib.fr">Prendre un RDV</a></p>
-    </div>
-
-<!--div pour menu desktop-->
-    <div class="menu">
-        <div class="accueil">Accueil</div>
-        <div class="lesSoins">Les soins</div>
-        <div class="quiSuisJe">Qui suis-je ?</div>
-        <div class="contact">Contact</div>
-    </div>
+<div class="rendezVous">
+    <button id="rdv"><a href ="https://www.doctolib.fr">Prendre un RDV</a></button>
+</div>
+    
 
 <!--A FAIRE Javascript ! Placer pour Button -->
-    <div class="burger"></div>
+   
 
-</div>
+
 </header>
  
 <section>
 <!--div pour le carrousselle de photo-->
 <!--A FAIRE Javascript ! scroll de photos-->
 
-<div class="scrollAccueil">
-    <h1>La réflexologie dans tous ses états</h1>
-    <img src="https://media.discordapp.net/attachments/892066506005950504/893113904161497108/pied-acceuil4.jpg" alt="photoPiedsNature"/>
-    <img src="https://cdn.discordapp.com/attachments/892066506005950504/893113814566993950/cabinet2.jpg" alt="photoCabinet"/>
-    <img src="https://cdn.discordapp.com/attachments/892066506005950504/893113597289431050/piedsacceuil3.jpg" alt="photoPiedsdansL'eau"/>
-</div>
+<Div class="accueil"> 
+        <img  src="https://media.discordapp.net/attachments/892066506005950504/893113904161497108/pied-acceuil4.jpg"alt pieds dans champs vert>
+        <button> < </button>
+        <button> > </button>
+        <div class="phrase">
+
+            <h3 >la reflexiologie dans tout ces etats </h3>
+        </div>
+
+    </div>
+ 
+    
+
 
 <!--réseaux sociaux-->
-<div class="suivezMoi">
-    <h1>SUIVEZ-MOI</h1>
-</div>
-<div class="logoReseaux">
-    <a href="https://fr-fr.facebook.com"><img src=><!--A FAIRE ! Logo réseau--></a>
-    <a href="https://instagram.com"><img src=><!--A FAIRE ! Logo réseau--></a>
-    <a href="https://fr.linkedin.com"><img src="https://images-ext-1.discordapp.net/external/D--j5S-RjcoFF_iROnUH_PQVANqq0LbqXLeXSY8vVnM/https/image.flaticon.com/icons/png/512/779/779096.png" alt="logo LinkedIng"></a>
-</div>
+
 
 </section>
 
@@ -71,7 +79,16 @@
         <p>"Un voyage de mille lieues commence toujours par un premier pas."</p>
         <p>-Loa Tzu-</p>
     </div>
+    <div class="suivezMoi">
+        <h1>SUIVEZ-MOI</h1>
+    </div>
+    <div class="logoReseaux">
+        <a  href="https://fr-fr.facebook.com"><img src=><!--A FAIRE ! Logo réseau--></a>
+        <a href="https://instagram.com"><img src=><!--A FAIRE ! Logo réseau--></a>
+        <a href="https://fr.linkedin.com"><img src="https://images-ext-1.discordapp.net/external/D--j5S-RjcoFF_iROnUH_PQVANqq0LbqXLeXSY8vVnM/https/image.flaticon.com/icons/png/512/779/779096.png" alt="logo LinkedIng"></a>
+    </div>
 </footer>
+<script src="/style.js"></script>
 </body>
 
     </html> 
