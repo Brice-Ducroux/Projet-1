@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel = "stylesheet" href = "style.css.smartphone.css"media="screen and (max-width:640px)"/>
-        <link rel = "stylesheet" href = "style.css.desktop.css"media="screen and (max-width:640px)"/>
+        <link rel = "stylesheet" href = "style.css.desktop.css"media="screen and (min-width:641px)"/>
 
         <title>Projet1</title>
     </head>
@@ -17,7 +17,7 @@
     
 
 <!--navigation bar-->
-<nav>
+
 
     <div class="presentation"><!-- prensetation +logo-->
         <div class="logo">
@@ -35,40 +35,34 @@
             </a>
 
         </div>
-        
+               
     </div>
+    <!--div pour bouton rdv-->
 
-</nav>
-<!--div pour bouton rdv-->
 <div class="rendezVous">
-    <button id="rdv"><a href ="https://www.doctolib.fr">Prendre un RDV</a></button>
-</div>
-    
-
-<!--A FAIRE Javascript ! Placer pour Button -->
-   
-
-
+            <button id="rdv"><a href ="https://www.doctolib.fr">Prendre un RDV</a></button>
+        </div>
 </header>
  
 <section>
 <!--div pour le carrousselle de photo-->
 <!--A FAIRE Javascript ! scroll de photos-->
-
+<nav>         
 <Div class="accueil"> 
         <img  src="https://media.discordapp.net/attachments/892066506005950504/893113904161497108/pied-acceuil4.jpg"alt pieds dans champs vert>
-        <button> < </button>
-        <button> > </button>
+        <!--A FAIRE Javascript ! Placer pour Button -->
+        <div class="boutonCarossel">
+            <button id="btnLeft"> < </button>
+            <button id="btnRight"> > </button>        
+        </div>
+       
         <div class="phrase">
 
             <h3 >la reflexiologie dans tout ces etats </h3>
         </div>
 
     </div>
- 
-    
-
-
+</nav>
 <!--réseaux sociaux-->
 
 
@@ -83,9 +77,11 @@
         <h1>SUIVEZ-MOI</h1>
     </div>
     <div class="logoReseaux">
-        <a  href="https://fr-fr.facebook.com"><img src=><!--A FAIRE ! Logo réseau--></a>
-        <a href="https://instagram.com"><img src=><!--A FAIRE ! Logo réseau--></a>
-        <a href="https://fr.linkedin.com"><img src="https://images-ext-1.discordapp.net/external/D--j5S-RjcoFF_iROnUH_PQVANqq0LbqXLeXSY8vVnM/https/image.flaticon.com/icons/png/512/779/779096.png" alt="logo LinkedIng"></a>
+        <div>  <a  href="https://fr-fr.facebook.com"><img src=></a></div>
+       <div>  <a href="https://instagram.com"><img src=><!--A FAIRE ! Logo réseau--></a></div>
+       <div>   <a href="https://fr.linkedin.com"><img src="https://images-ext-1.discordapp.net/external/D--j5S-RjcoFF_iROnUH_PQVANqq0LbqXLeXSY8vVnM/https/image.flaticon.com/icons/png/512/779/779096.png" alt="logo LinkedIng"></a>    </div>
+       
+        
     </div>
 </footer>
 <script src="/style.js"></script>

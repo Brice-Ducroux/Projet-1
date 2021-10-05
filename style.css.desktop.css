@@ -20,7 +20,5 @@ body{ padding: 0; margin:0,
    
 
 /* navigation bar*/
-.nav {height: 50px; width: 100%; background-color: transparent; display: flex;justify-content: centre;align-items: center;
-}
 .a { text-decoration: nan; color:rgb(6, 114, 114) ;font-size: 10px; margin-right: 10px;}
 .a.hover { color: white;}
