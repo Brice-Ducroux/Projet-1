@@ -1,0 +1,67 @@
+/* CSS page quiSuisJe */
+::after,
+::before {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.bloc #imgQuiSuisJe{
+    display:flex;
+}
+
+#imgQuiSuisJe{
+    width: 100px;
+    height: 500px;
+    
+}
+
+.containerQuiSuisJe{
+    margin: 0px;
+    padding: 30px;
+    background-color: #25748F;
+}
+
+.containerFormation{
+    margin: 0px;
+    padding: 30px;
+    background-color: lightgrey;
+}
+.containerQuiSuisJe{
+    display: flex;
+    width: 900px;
+    position: relative;
+    left: 396px;
+
+}
+
+#quiSuisJe h1{
+    color: #25748F;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+}
+
+#mesFormations h1{
+    color: #25748F;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    text-align: justify;
+    background-color: white;
+    padding: 20px; 
+}
+.quiSuisJeTxt, .formationTxt{
+    color:#25748F;
+    background-color: white;
+    text-align: center;
+    padding:20px;
+    margin: 60px;
+
+}
+.quiSuisJeTxt{
+    text-align: justify;
+}
