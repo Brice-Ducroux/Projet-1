@@ -6,14 +6,10 @@
   box-sizing: border-box;
 }
 
-.bloc #imgQuiSuisJe{
+.bloc{
     display:flex;
-}
-
-#imgQuiSuisJe{
-    width: 100px;
-    height: 500px;
-    
+    flex-direction: row;
+    align-items: center;
 }
 
 .containerQuiSuisJe{
@@ -29,9 +25,7 @@
 }
 .containerQuiSuisJe{
     display: flex;
-    width: 900px;
-    position: relative;
-    left: 396px;
+    width: max-content;
 
 }
 
@@ -63,5 +57,5 @@
 
 }
 .quiSuisJeTxt{
-    text-align: justify;
+    text-align: center;
 }
