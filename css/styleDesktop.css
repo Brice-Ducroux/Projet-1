@@ -1,0 +1,74 @@
+/* nosSoinsCss */
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.bodySoins {
+  background-color: rgb(26, 115, 138);
+  padding-bottom: 3%;
+  padding-left: 18%;
+  padding-right: 18%;
+  padding-top: 4%;
+}
+
+.blocCovid {
+  background-color: rgb(26, 115, 138);
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-left: 18%;
+  padding-right: 18%;
+}
+
+.covidTxt p {
+  font-size: 18px;
+}
+
+.covidTxt {
+  max-width: 50%;
+  padding-top: 30px;
+  font-weight: bold;
+}
+
+.iconesCovid > img {
+  width: 80px;
+  padding: 10px;
+}
+
+.bodySoinsWhite {
+  background-color: white;
+  padding: 5%;
+  color: rgb(26, 115, 138);
+  padding-bottom: 4%;
+}
+
+.titre h1 {
+  text-align: center;
+  font-size: 65px;
+  padding-bottom: 7%;
+}
+
+.soin h2 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.tarif {
+  text-align: center;
+  font-size: 23px;
+  padding-bottom: 15px;
+}
+
+p {
+  text-align: center;
+  padding-bottom: 60px;
+  font-size: 23px;
+}

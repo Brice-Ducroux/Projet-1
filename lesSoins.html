@@ -1,121 +1,147 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "css/styleMobile.css" media="screen and (max-width:640px)"/>
-    <link rel = "stylesheet" href = "css/styleDesktop.css" media="screen and (min-width:641px)"/>
+    <link rel="stylesheet" href="css/styleMobile.css" media="screen and
+      (max-width:640px)" />
+    <link rel="stylesheet" href="css/styleDesktop.css" media="screen and
+      (min-width:641px)" />
     <title>Projet1</title>
-</head>
+  </head>
 
-<body>
-<header>
-    <div class="header">
+
+
+  <body>
+    <header>
+      <div class="header">
 
         <!--div de présentation + logo-->
-            <div class="presentation">
-                <div class="logo">
-                    <img src="https://cdn.discordapp.com/attachments/892066506005950504/893116777071005786/logo.jpg" alt="logo du site"/>
-                </div>
-                <div class="nomPrenom">
-                    <h1>Godeline Boy</h1>
-                    <p>Podologue - 06 67 05 82 17</p>
-                </div>
-            </div>
-        
+        <div class="presentation">
+          <div class="logo">
+            <img
+              src="https://cdn.discordapp.com/attachments/892066506005950504/893116777071005786/logo.jpg"
+              alt="logo du site" />
+          </div>
+          <div class="nomPrenom">
+            <h1>Godeline Boy</h1>
+            <p>Podologue - 06 67 05 82 17</p>
+          </div>
+        </div>
+
         <!--div pour bouton rdv-->
-            <div class="rendezVous">
-                <p><a href ="https://www.doctolib.fr" target="_blanck">Prendre un RDV</a></p>
-            </div>
-        
+        <div class="rendezVous">
+          <p><a href="https://www.doctolib.fr" target="_blanck">Prendre
+              un RDV</a></p>
+        </div>
+
         <!--div pour menu desktop-->
-            <div class="menu">
-                <div class="accueil"><a href="accueil.html">Accueil</a</div>
-                <div class="lesSoins"><a href="lesSoins.html">Les soins</a></div>
-                <div class="quiSuisJe"><a href="quiSuisJe.html">Qui suis-je ?</a></div>
-                <div class="contact"><a href="contact.html">Contact</a></div>
-            </div>
-          
+        <ul>
+          <li class="accueil"><a href="accueil.html">Accueil</a></li>
+          <li class="lesSoins"><a href="lesSoins.html">Les soins</a></li>
+          <li class="quiSuisJe"><a href="quiSuisJe.html">Qui suis-je
+              ?</a></li>
+          <li class="contact"><a href="contact.html">Contact</a></li>
+        </ul>
 
- <!--A FAIRE Javascript ! Placer pour Button -->   
+
+        <!--A FAIRE Javascript ! Placer pour Button -->
         <div class="burger"></div>
-    </div>
-</header>
+      </div>
+    </header>
 
-<section>
+    <section>
 
-<!--ATTENTION ! class="blocCovid" à adapter en format desktop... partie absente en smartphone-->
-    <div class="blocCovid">
+      <!--ATTENTION ! class="blocCovid" à adapter en format desktop... partie absente en smartphone-->
+      <div class="blocCovid">
+
         <div class="covidTxt">
-            <p>Reprise d'activité siute au COVID 19 fixée au 18/05/2020 (norme d'hygiène renforcées au cabinet)<br>Lire les orécautions imposées pour le SPF <br>et l'association professionnelles des réflexologues.</p>
+          <p>Reprise d'activité suite au COVID 19 fixée au 18/05/2020 (norme
+            d'hygiène renforcée au cabinet)<br><br>
+
+            Lire les précautions imposées par le SPF et l'association
+            professionnelles des réflexologues.</p>
         </div>
 
         <div class="iconesCovid">
-            <img src="https://t4.ftcdn.net/jpg/03/82/87/37/240_F_382873788_s1Z0jMROzJ0NSNB2pyxBAk8wWSlL9mIr.jpg" alt="photo gel hydroalcoolique">
-            <img src="https://t4.ftcdn.net/jpg/03/34/85/21/240_F_334852149_gpt8zp2KsYrELlxYabwL4NropcxFwHwS.jpg" alt="photo lavage de mains">
-            <img src="https://as1.ftcdn.net/v2/jpg/03/32/51/74/1000_F_332517462_KJoFMaPhYfV8UA9p6sMLgZH9eWHYU0ce.jpg" alt="photo masque">
-            <img src="https://as1.ftcdn.net/v2/jpg/03/52/84/36/1000_F_352843619_5zwOmUikuPG5nMKWDkUE6XjoLwnWgUkb.jpg" alt="photo spray">
-            <img src="https://as1.ftcdn.net/v2/jpg/03/27/11/60/500_F_327116092_zPgMdY3TFdVogl2OL1GXhomsQpg6Guq6.jpg" alt="photo mouchoirs">
-
+          <img src="img/logoGel.svg" alt="logo gel hydroalcoolique">
+          <img src="img/masque.svg" alt="logo masque">
+          <img src="img/spray.svg" alt="logo spray">
+          <img src="img/lavageDeMain.svg" alt="logo lavage de main">
+          <img src="img/boiteDeMouchoir.svg" alt="logo boit de mouchoir">
         </div>
-
-<!--bloc des types de soins-->
-    </div>
-    <div class="titre">
-        <h1>TYPES DE SOINS</h1>
-    </div>
-
-    <div class="soin">
-        <h1>01</h1>
-        <h2>REFLEXOLOGIE PLANTAIRE</h2>
-        <p class="tarif">30 min - 35€ / 60 min - 55€</p>
-        <p>La réflexologie repose sur le principe selon lequel chaque organe, glande, fonction physiologie correspondent à une zone de point précis du corps</p>
-    </div>
-
-    <div class="soin">
-        <h1>02</h1>
-        <h2>REFLEXOLOGIE VERTEBRALE</h2>
-        <p class="tarif">30 min - 35€ / 60 min - 60€</p>
-        <p>Cette réflexologie sollicite les multiples centres nerveux rachidiens tout le long de la colonne vertébrales, appelée aussi arbre de vie. La colonne vertébrale met chaque vertèbre en relation avec un organe et donc une émotion, ou une fonction organique.</p>
-    </div>
-
-    <div class="soin">
-        <h1>03</h1>
-        <h2>REFLEXOLOGIE PEDIATRIQUE & GROSSESSE</h2>
-        <p class="tarif">30 min - 30€ / 60 min - 55€</p>
-        <p>Pour être zen tout au long de sa grossesse ou favoriser le bien-être de votre enfant la réflexologie est très indiquée. Le premier trimestre est orienté détente. Les séances sont plus courtes pour les enfants (20 à 30 minutes).</p>
-    </div>
-
-    <div class="soin">
-        <h1>04</h1>
-        <h2>CARTE 5 SAISONS CHINOISES</h2>
-        <p class="tarif">5 X 60 min - 225€</p>
-        <p>Pack "5 saisons" permet à votre organisme d'anticiper vos besoins corporels et favorise l'auto-régulation du corps.</p>
-    </div>
-
-    <div class="soin">
-        <h1>05</h1>
-        <h2>MASSAGE DRAINANT</h2>
-        <p class="tarif">75 min - 70€</p>
-        <p>Technique manuelle permettant en effet tonifiant et relaxant. Ce massage nettoie et régénère l'organisme, accélère la cicatrisation et diminue le risque d'infection.</p>
-    </div>
-
-    <div class="soin">
-        <h1>06</h1>
-        <h2>SOINS ENERGETIQUE DU VISAGE LE KOBIDO</h2>
-        <p class="tarif">60 min - 60€</p>
-        <p>Ce soin allie subtilement drainage, rééquilibrage des énergies et soin anti-âge. La première partie du soin traite de la desintoxication des tissus. La deuxième partie du soin concerne les méridiens. Le troisième volet se concentre sur l'anti-âge et le lâcher-prise.</p>
-    </div>
-
- <!--A FAIRE Javascript ! Intégrer le scroll avec js-->  
-
-</section>
-
-<footer>
-
-</footer>
-</body>
+      </div>
 
 
-</html> 
+      <!--bloc des types de soins-->
+      <div class="bodySoins">
+
+        <div class="bodySoinsWhite">
+
+          <div class="titre">
+            <h1>TYPES DE SOINS</h1>
+          </div>
+
+          <div class="soin">
+            <h2>01 REFLEXOLOGIE PLANTAIRE</h2>
+            <p class="tarif">30 min - 35€ / 60 min - 55€</p>
+            <p>La réflexologie repose sur le principe selon lequel
+              chaque organe, glande, fonction physiologie
+              correspondent à une zone de point précis du corps.</p>
+          </div>
+
+          <div class="soin">
+            <h2>02 REFLEXOLOGIE VERTEBRALE</h2>
+            <p class="tarif">30 min - 35€ / 60 min - 60€</p>
+            <p>Cette réflexologie sollicite les multiples centres
+              nerveux rachidiens tout le long de la colonne
+              vertébrales, appelée aussi arbre de vie. La colonne
+              vertébrale met chaque vertèbre en relation avec un
+              organe et donc une émotion, ou une fonction
+              organique.</p>
+          </div>
+
+          <div class="soin">
+            <h2>03 REFLEXOLOGIE PEDIATRIQUE & GROSSESSE</h2>
+            <p class="tarif">30 min - 30€ / 60 min - 55€</p>
+            <p>Pour être zen tout au long de sa grossesse ou
+              favoriser le bien-être de votre enfant la
+              réflexologie est très indiquée. Le premier trimestre
+              est orienté détente. Les séances sont plus courtes
+              pour les enfants (20 à 30 minutes).</p>
+          </div>
+
+          <div class="soin">
+            <h2>04 CARTE 5 SAISONS CHINOISES</h2>
+            <p class="tarif">5 X 60 min - 225€</p>
+            <p>Pack "5 saisons" permet à votre organisme d'anticiper
+              vos besoins corporels et favorise l'auto-régulation
+              du corps.</p>
+          </div>
+
+          <div class="soin">
+            <h2>05 MASSAGE DRAINANT</h2>
+            <p class="tarif">75 min - 70€</p>
+            <p>Technique manuelle permettant en effet tonifiant et
+              relaxant. Ce massage nettoie et régénère
+              l'organisme, accélère la cicatrisation et diminue le
+              risque d'infection.</p>
+          </div>
+
+          <div class="soin">
+            <h2>06 SOINS ENERGETIQUE DU VISAGE LE KOBIDO</h2>
+            <p class="tarif">60 min - 60€</p>
+            <p>Ce soin allie subtilement drainage, rééquilibrage des
+              énergies et soin anti-âge. La première partie du
+              soin traite de la desintoxication des tissus. La
+              deuxième partie du soin concerne les méridiens. Le
+              troisième volet se concentre sur l'anti-âge et le
+              lâcher-prise.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </body>
+</html>
