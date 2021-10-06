@@ -29,7 +29,98 @@
 .logoReseau{ display: flex;}
 
 
+/* CSS mobile - page contact*/
+
+.containerContactezMoi{
+    background-color: white;
+    color: #25748F;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin:0px;
+    border: 30px solid lightgrey;
+    font-size: 16px;
+    padding: 5px;
+}
+
+.containerContactezMoi h1{
+    font-size: 25px;
+}
+
+.logoReseaux{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+img{
+    width: 40px;
+    height: 40px;
+}
+
+.containerMonCabinet{
+    background-color: white;
+    color: #25748F;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin:0px;
+    border: 30px solid lightgrey;
+    font-size: 16px;
+    padding-bottom:20px;
+    padding-left: 7px;
+}
+
+.containerMonCabinet h1{
+    font-size: 25px;
+}
+
+h2{
+    font-size: 15px;
+}
+.horaires{
+    display: flex;
+    flex-direction: row;
+}
+
+ul{
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+    font-size: 10px;
+}
 
 
-   
+.matin p{
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 13px;
+}
 
+.apresMidi{
+    position: relative;
+    left: 1px;
+}
+.apresMidi p{
+    display:flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.containerFooter{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+    text-align: center;
+    background-color: #25748F;
+    color: white;
+    margin: max-content;
+    padding: 8px;
+}
+
+.containerFooter h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+}
