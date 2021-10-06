@@ -33,7 +33,7 @@
 
 .containerContactezMoi{
     background-color: white;
-    color: #25748F;
+    color: rgb(26, 115, 138);
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     margin:0px;
@@ -58,7 +58,7 @@ img{
 
 .containerMonCabinet{
     background-color: white;
-    color: #25748F;
+    color: rgb(26, 115, 138);
     font-family: 'Courier New', Courier, monospace;
     text-align: center;
     margin:0px;
@@ -114,7 +114,7 @@ ul{
     font-family: 'Courier New', Courier, monospace;
     font-size: 12px;
     text-align: center;
-    background-color: #25748F;
+    background-color: rgb(26, 115, 138);
     color: white;
     margin: max-content;
     padding: 8px;
