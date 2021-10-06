@@ -1,31 +1,147 @@
-/* body  */
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   }
+   
+     /* navigateur barre*/  
+    .nav{background-color:#FFFFFFdf ;
+            height: 100px;
+           width: 100%;
+           margin: 0px;
+           padding: 0px;
+           border: 10px;
+           display: flex;
+           justify-content: center;
+           align-items: center;
+       align-content: space-around;
+       gap: 15px;
+   
+   
+    }  
+    /* logo accueil*/
+    .logoAccueil{
+        display: flex;
+        margin-right: 0px;
+    }
+    .logoAccueil img{width: 30px;
+   height: 20px;}
+/* menu lien */
+    .menu{
+       display: none;
+        padding:40px
+    }
+    /*list */
+    .menu ul{
+        display: none;
+        list-style: none;
+        gap: 30px;
+    }
+    /*link*/
+    a{
+        color:#107091 ;margin: left 20px; 
+        text-decoration: none;
+        font-size: 20px;
+        font-family:avenir-lt-w01_35-light1475496, sans-serif;
+    
+    }
+    /* nom et prenom*/
+    span{ color:#107091 ;margin: left 10px; font-family:avenir-lt-w01_35-light1475496, sans-serif; display: block;
+   }
 
-/* css logo */
+  /* label{margin-left: 30px;
+   display: flex;}
+   input {margin-left: 30px;display: none;}*/
+   
+   /*bouton burger*/
+   @media all and (max-width: 991px)
+{
+    nav
+    {
+        height: 60px;
+    }
+ 
+    nav .menu
+    {
+        display: none;
+    }
+ 
+    label 
+    {
 
-.presentation {
-    background-color: yellow;
+    height: 3px;width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 40px;
+    color:#107091;
+    cursor: pointer;
+    
 }
+label, #page
+{
+    display: none;
+}
+ 
+@media all and (max-width: 991px)
+{
+    nav
+    {
+        height: 60px;
+    }
+ 
+    .nav .menu 
+    {
+        display: none;
+        flex-direction: column;
+        background: #48435C;
+        height: 220px;
+    }
+ 
+    .nav .menu a {
+        width: 50%;
+    }label 
+    {
 
-.nomPrenom{background-color: tomato; display: flex; justify-content: center;font-style: italic;
-    size: 2;font-family: 'Courier New', Courier, monospace; align-items: center;flex-direction: column;}
-     
-.logo { margin-right: 0;width: 45px;height: 45px; }
-.menu.a { text-decoration: nan; color:rgb(6, 114, 114) ;font-size: 10px; margin-right: 10px;}
-.a.hover { color: white;}
+    height: 3px;width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: 40px;
+    color:#107091;
+    cursor: pointer;
+    
+ 
+    
+#page {display: none;}
+#page:checked + .menu {
+    display: flex;
 
+/*image d'accueil*/
+.accueil {
+  
+    background: url(../img/pied-accueil4.jpg) no-repeat center;
+    min-height: 100vh;
+    background-size: cover;
 
 /* button rdv*/
 .rendezvous{
-   background-color: #25748F;font-family: 'Courier New', Courier, monospace;margin-bottom: 40px;
+   background-color: #25748F;font-family : 'Courier New', Courier, monospace;margin-bottom: 40px;
 } 
 /*page accuiel*/
-.acueil img {max-width: 800px; position: relative; }
-.phrasse{position:absolute;top: 200px; display: flex; justify-content: center;font-size: 10px;}
+.acueil img { position: absolute; }
 
-.buttonCarossel{  position: absolute; background-color: transparent; font-size: 20px;}
-#btnLeft{ margin-left: 200px;}
-#btnRight{margin-right: 200px;     }
+    /* phrase au milieu la page accueil*/
+.phrasse{position:absolute;margin-top: 50px; display: flex; justify-content: center;font-size: 10px;font-family:light1475496 ;}
+/*bouton doite et gauche pour la caroussel*/
+.buttonCarossel{  position: relative; background-color: transparent; font-size: 20px;}
+#btnLeft{ margin-left: 200px;
+}
+#btnRight{margin-right: 200px; 
+   }
 .logoReseau{ display: flex;}
 
 
