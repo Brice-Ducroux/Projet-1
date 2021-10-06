@@ -63,8 +63,16 @@ label {
 }
 /*image d'accueil*/
 .accueil {
-  
+
   background: url(../img/pied-accueil4.jpg) no-repeat center;
   min-height: 100vh;
-  background-size: cover;
+  background-size: cover; position: relative;
 }
+.phrase{ position: absolute; top: 200px; color: #107091;}
+
+
+.rdv{ color :#107091;margin: 0px;font-size: 10px;display: flex;padding: 10px; }
+#btnright{ margin-right:0px ;       }
+
+
+
