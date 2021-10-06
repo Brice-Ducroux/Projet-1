@@ -47,7 +47,7 @@
 .containerQuiSuisJe{
     margin: 0px;
     padding: 30px;
-    background-color: #25748F;
+    background-color: rgb(26, 115, 138);
 }
 
 .containerFormation{
@@ -57,9 +57,9 @@
 
 }
 h1{
-    color: #25748F;
+    color: rgb(26, 115, 138);
     font-family: 'Courier New', Courier, monospace;
-    font-size: 20px;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
     background-color: white;
@@ -67,10 +67,11 @@ h1{
 }
 
 .quiSuisJeTxt, .formationTxt{
-    color:#25748F;
+    color:rgb(26, 115, 138);
     background-color: white;
     text-align: center;
     padding:20px;
+    font-size: 16px;
 
 }
    
