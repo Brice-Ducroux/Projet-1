@@ -66,13 +66,27 @@ label {
 
   background: url(../img/pied-accueil4.jpg) no-repeat center;
   min-height: 100vh;
-  background-size: cover; position: relative;
+  background-size: cover; position: relative;display: flex;align-items: center;
 }
 .phrase{ position: absolute; top: 200px; color: #107091;}
 
 
-.rdv{ color :#107091;margin: 0px;font-size: 10px;display: flex;padding: 10px; }
-#btnright{ margin-right:0px ;       }
+.rdv{ margin-left: auto;font-size: 10px;display: flex; margin-right: auto;
+  font-family : 'Courier New', Courier, monospace;margin-bottom: 40px;border-radius: 5px;
+} 
+/*page accuiel*/
+.acueil { position: relative; }
+
+   /* phrase au milieu la page accueil*/
+.phrasse{position:absolute; display: flex; justify-content: center;font-size: 10px;font-family:light1475496 ;text-align: center;margin-left: 100px;}
+/*bouton doite et gauche pour la caroussel
+
+.btnleft{ left: 0px;position: absolute;top:230px;font-size: 45px;padding:10px;
+}
+.btnRight{position: absolute; top:230px; right: 0px;font-size: 45px;padding:10px;
+  }*/
+
+
 
 
 
