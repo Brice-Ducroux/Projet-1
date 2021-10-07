@@ -1,12 +1,12 @@
 /* fonction de la carossell*/
-var arrayslide =[{ tittle:"la reflexiologie dans tout ces etat", img:"/img/pied-accueil4.jpg"},   { tittle:"lorsque on masse les pieds ,on caresse notre âme",
-img:"/img/pieds2.jpg"},{ tittle:"les pieds miroir de notre corps", img:"/img/piedsaccueil3.jpg"},]
-var myImg = document.getElementById("img");
-var myTittle = document.getElementById("tittle");
+var arrayslide =[{ phrase:"la reflexiologie dans tout ces etat", img:"/img/pied-accueil4.jpg"},   { phrase:"lorsque on masse les pieds ,on caresse notre âme",
+img:"/img/pieds2.jpg"},{ phrase:"les pieds miroir de notre corps", img:"/img/piedsaccueil3.jpg"},]
+var myImg = document.getElementById("accueil");
+var myTittle = document.getElementById("phrase");
 var i=0;
 function slidshownext(){
     myImg.src=arrayslide[i].img;
-    myTittle.textContent=arrayslide[i].tittle;
+    myTittle.textContent=arrayslide[i].phrase;
 
     if (i<arrayslide.length-1){
         i++;
@@ -20,7 +20,8 @@ function slidshownext(){
 
 function slidwhowprevious(){
     myImg.src=arrayslide[i].img.;
-    myTittle.textContent=arrayslide.tittle;
+    myTittle.textContent=arrayslide.phrase
+    ;
 
 
 if(i>0){i--
