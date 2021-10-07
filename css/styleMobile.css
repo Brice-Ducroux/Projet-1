@@ -83,14 +83,14 @@ nav .main_pages a {
   color: white;
 }
 nav a:hover {
-  background: #5a5766;
-}
+    background: #5a5766;
+  }
 
 nav {
   height: 60px;
 }
 
-nav .main_pages{
+nav .main_pages {
   display: none;
   flex-direction: column;
   background: #48435c;
@@ -142,7 +142,7 @@ label {
 .rdv {
   background-color: #25748f;
   font-family: "Courier New", Courier, monospace;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
 }
 /*page accuiel*/
 .acueil img {
@@ -150,7 +150,7 @@ label {
 }
 
 /* phrase au milieu la page accueil*/
-.phrasse {
+.phrase {
   position: absolute;
   margin-top: 50px;
   display: flex;

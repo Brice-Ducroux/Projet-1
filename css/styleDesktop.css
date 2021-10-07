@@ -30,6 +30,7 @@
 
 .nav2 {
   width: 80%;
+justify-content: space-between;
 }
 .nav-2 {
   display: flex;
@@ -72,18 +73,18 @@ span {
 .phrase {
   position: absolute;
   top: 200px;
-  color: #107091;
+  color:white;
 }
 
 .rdv {
   left: 0px;
   top: 0px;
+  margin-bottom: 55px;
   font-size: 10px;
-
-  font-family: "Courier New", Courier, monospace;
-
+  font-family:light1475496 ;
   border-radius: 5px;
-  color: #107091;
+  color: white;
+  background-color:#107091 ;
 }
 /*page accuiel*/
 .accueil {
@@ -95,12 +96,12 @@ span {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
-  font-size: 40px;
+  font-size: 30px;
   font-family: light1475496;
   text-align: center;
 }
 .phrase:hover {
-  color: aliceblue;
+  color:#107091;
 }
 /*bouton doite et gauche pour la caroussel*/
 .btn-container {
@@ -110,9 +111,15 @@ span {
 }
 .btnleft {
   font-size: 45px;
+  color: white;
+  background-color: transparent; 
+  border-color: transparent;
 }
 .btnright {
   font-size: 45px;
+  color: white;
+  background-color: transparent; 
+  border-color: transparent;
 }
 
 /* début CSS burger */
@@ -140,9 +147,6 @@ nav .main_pages a {
   color: #107091;
 }
 
-nav a:hover {
-  background: #107091;
-}
 
 label,
 #toggle {
@@ -175,3 +179,4 @@ label,
   justify-content: center;
   top: 20px;
 }
+.suivezMoi h2{ font-size: 10px;font-family:ight1475496 ;}
