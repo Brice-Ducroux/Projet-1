@@ -15,10 +15,15 @@
     font-size: 70px;
 }
 
-.logoReseaux{
+.logoReseaux {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+
+}
+
+.logoReseaux  a{
+    padding: 2rem;
 }
 
 img{
@@ -26,6 +31,9 @@ img{
     height: 80px;
 }
 
+#logoinsta{
+    width: 50px;
+}
 .containerMonCabinet{
     background-color: white;
     color: rgb(26, 115, 138);
@@ -40,11 +48,29 @@ img{
     font-size: 70px;
 }
 
+.mapHoraire{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 10px;
+}
+.map-responsive {
+    width: 50%;
+    }
+    
+.map-responsive iframe {
+width: 100%;
+min-height:500px;
+}
+
 .horaires{
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    padding: 40px;
+    padding: 30px; 
+    padding-top: 30px;
+    padding-left: 250px;
+
 }
 
 ul{
@@ -65,7 +91,9 @@ h2{
     flex-direction: column;
     align-items: flex-end;
     padding: 40px;
+    
 }
+
 .matin p{
     font-size: 25px;
     font-weight: bold;
