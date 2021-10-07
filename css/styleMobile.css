@@ -1,169 +1,299 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-   }
-   
-     /* navigateur barre*/  
-    .nav{background-color:#FFFFFFdf ;
-            height: 100px;
-           width: 100%;
-           margin: 0px;
-           padding: 0px;
-           border: 10px;
-           display: flex;
-           justify-content: center;
-           align-items: center;
-       align-content: space-around;
-       gap: 15px;
-   
-   
-    }  
-    /* logo accueil*/
-    .logoAccueil{
-        display: flex;
-        margin-right: 0px;
-    }
-    .logoAccueil img{width: 30px;
-   height: 20px;}
+/* navigateur barre*/
+.nav {
+  background-color: #ffffffdf;
+  height: 100px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  gap: 15px;
+}
+/* logo accueil*/
+.logoAccueil {
+  display: flex;
+  margin-right: 0px;
+}
+.logoAccueil img {
+  width: 30px;
+  height: 20px;
+}
 /* menu lien */
-    .menu{
-       display: none;
-        padding:40px
-    }
-    /*list */
-    .menu ul{
-        display: none;
-        list-style: none;
-        gap: 30px;
-    }
-    /*link*/
-    a{
-        color:#107091 ;margin: left 20px; 
-        text-decoration: none;
-        font-size: 20px;
-        font-family:avenir-lt-w01_35-light1475496, sans-serif;
-    
-    }
-    /* nom et prenom*/
-    span{ color:#107091 ;margin: left 10px; font-family:avenir-lt-w01_35-light1475496, sans-serif; display: block;
-   }
+.menu {
+  display: none;
+  padding: 40px;
+}
+/*list */
+.menu ul {
+  display: none;
+  list-style: none;
+  gap: 30px;
+}
+/*link*/
+a {
+  color: #107091;
+  margin: left 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: avenir-lt-w01_35-light1475496, sans-serif;
+}
+/* nom et prenom*/
+span {
+  color: #107091;
+  margin: left 10px;
+  font-family: avenir-lt-w01_35-light1475496, sans-serif;
+  display: block;
+}
 
-  /* label{margin-left: 30px;
+/* label{margin-left: 30px;
    display: flex;}
    input {margin-left: 30px;display: none;}*/
-   
-   /*bouton burger*/
-   nav {
-    margin: 100px auto;
-    width: 50%;
-    height: 100px;
-    background:white;
-  }
-  
-nav .menu {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-  }
 
-  nav .menu a {
-    width: 20%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100px;
-    text-decoration: none;
-    font-family: Arial, sans-serif;
-    color: white;
-  }nav a:hover {
-    background: #5a5766;
-  }
-  
-  label,
-  #page {
-    display: none;
-  }
-   @media all and (max-width: 991px)
-{
-    nav
-    {
-        height: 60px;
-    }
- 
-    nav .menu
-    {
-        display: none;flex-direction: column;
-        background: #48435c;
-        height: 220px;
-    }
- 
-   
-label, #page
-{
-    display: none;
+/*bouton burger*/
+nav {
+  margin: 100px auto;
+  width: 50%;
+  height: 100px;
+  background: white;
 }
- 
-@media all and (max-width: 991px)
-{
-    nav
-    {
-        height: 60px;
-    }
- 
-    .nav .menu 
-    {
-        display: none;
-        flex-direction: column;
-        background: #48435C;
-        height: 220px;
-    }
- 
-    .nav .menu a {
-        width: 50%;
-    
-    {
-        label {
-            width: 30px;
-            display : flex;
-            justify-content: center;
-            align-items: center;
-            margin: 0 auto;
-            font-size: 40px;
-            color: white;
-            cursor: pointer;
-          }
-    
-    
- 
-    
 
-#page:checked + .menu {  display: flex;}
-  
+nav .menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav .menu a {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+nav a:hover {
+  background: #5a5766;
+}
+
+nav {
+  height: 60px;
+}
+
+nav .menu {
+  display: none;
+  flex-direction: column;
+  background: #48435c;
+  height: 220px;
+}
+
+/* css logo */
+
+.presentation {
+  background-color: white;
+}
+
+nav {
+  height: 60px;
+}
+
+.nav .menu {
+  display: none;
+  flex-direction: column;
+  background: #48435c;
+  height: 220px;
+}
+
+.nav .menu a {
+  width: 50%;
+}
+label {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 40px;
+  color: white;
+  cursor: pointer;
+}
+
+#page:checked + .menu {
+  display: flex;
+}
 
 /*image d'accueil*/
 .accueil {
-  
-    background: url(../img/pied-accueil4.jpg) no-repeat center;
-    min-height: 100vh;
-    background-size: cover;
-
+  background: url(../img/pied-accueil4.jpg) no-repeat center;
+  min-height: 100vh;
+  background-size: cover;
+}
 /* button rdv*/
 .rdv {
-   background-color: #25748F;font-family : 'Courier New', Courier, monospace;margin-bottom: 40px;
-} 
+  background-color: #25748f;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 40px;
+}
 /*page accuiel*/
-.acueil img { position: absolute; }
+.acueil img {
+  position: absolute;
+}
 
-    /* phrase au milieu la page accueil*/
-.phrasse{position:absolute;margin-top: 50px; display: flex; justify-content: center;font-size: 10px;font-family:light1475496 ;}
+/* phrase au milieu la page accueil*/
+.phrasse {
+  position: absolute;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  font-family: light1475496;
+}
 /*bouton doite et gauche pour la caroussel*/
 
-#btnLeft{ left: 0px;position: absolute;top:230px;font-size: 45px;padding:10px;background-color: transparent;
+#btnLeft {
+  left: 0px;
+  position: absolute;
+  top: 230px;
+  font-size: 45px;
+  padding: 10px;
+  background-color: transparent;
 }
-#btnright{position: absolute; top:230px; right: 0px;font-size: 45px;padding:10px;
-   }
+#btnright {
+  position: absolute;
+  top: 230px;
+  right: 0px;
+  font-size: 45px;
+  padding: 10px;
+}
 
-   /* footer*/
-.logoReseau{ display: flex;}
+/* footer*/
+.logoReseau {
+  display: flex;
+}
+.nomPrenom {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  size: 2;
+  font-family: "Courier New", Courier, monospace;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  margin-right: 0;
+  width: 45px;
+  height: 45px;
+}
+.main_pages.a {
+  text-decoration: nan;
+  color: rgb(6, 114, 114);
+  font-size: 10px;
+  margin-right: 10px;
+}
+.a.hover {
+  color: white;
+}
+
+/* button rdv*/
+.rendezvous {
+  background-color: #25748f;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 40px;
+}
+/*page accuiel*/
+.acueil img {
+  max-width: 800px;
+  position: relative;
+}
+.phrasse {
+  position: absolute;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+}
+
+.buttonCarossel {
+  position: absolute;
+  background-color: transparent;
+  font-size: 20px;
+}
+#btnLeft {
+  margin-left: 200px;
+}
+#btnRight {
+  margin-right: 200px;
+}
+.logoReseau {
+  display: flex;
+}
+
+/* début CSS header */
+nav {
+  margin: 100px auto;
+  width: 50%;
+  height: 100px;
+  background: #48435c;
+}
+
+nav .main_pages {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav a:hover {
+  background: #5a5766;
+}
+
+label,
+#toggle {
+  display: none;
+}
+/* fin CSS header */
+
+nav {
+  height: 60px;
+}
+
+nav .main_pages {
+  display: none;
+  flex-direction: column;
+  background: rgb(6, 114, 114);
+  height: 220px;
+}
+nav .main_pages a {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+label {
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  font-size: 40px;
+  color: rgb(6, 114, 114);
+  cursor: pointer;
+}
+#toggle:checked + .main_pages {
+  display: flex;
+}
