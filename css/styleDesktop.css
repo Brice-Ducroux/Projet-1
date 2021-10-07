@@ -90,17 +90,18 @@ span {
    position: absolute;
   left: 50%;
   transform: translateX(-50%); 
-  font-size: 10px;
+  font-size: 40px;
   font-family: light1475496;
   text-align: center;
  
 }
-/*bouton doite et gauche pour la caroussel
+.phrase:hover{color: aliceblue;}
+/*bouton doite et gauche pour la caroussel*/
 
-.btnleft{ left: 0px;position: absolute;top:230px;font-size: 45px;padding:10px;
+.btnleft{ left: 0px;position: absolute;top:230px;font-size: 45px;padding:15px;
 }
 .btnRight{position: absolute; top:230px; right: 0px;font-size: 45px;padding:10px;
-  }*/
+  }
 
 /* début CSS burger */
 .navBurger {
