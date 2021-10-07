@@ -5,13 +5,16 @@
 }
 /*navigation bar*/
 
+.nav {
+  display: flex;
+}
 .navBar {
   background-color: white;
-  height: 100px;
-  width: 100%;
+  width: 20%;
   margin: 0px;
   padding: 0px;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
 
@@ -20,14 +23,17 @@
 .nav a:hover {
   color: black;
 }
-/*logo d'accueil*/
-.logoAccueil {
+.logoaccueil {
   display: flex;
-  margin-right: 0px;
+  align-items: flex-start;
 }
-.logoAccueil > img {
-  width: 0px;
-  height: 0px;
+
+.nav2 {
+  width: 80%;
+}
+.nav-2 {
+  display: flex;
+  align-items: center;
 }
 /*menu */
 .menu {
@@ -70,46 +76,51 @@ span {
 }
 
 .rdv {
-  margin-left: auto;
+  left: 0px;
+  top: 0px;
   font-size: 10px;
-  display: flex;
-  margin-right: auto;
+
   font-family: "Courier New", Courier, monospace;
-  margin-bottom: 40px;
+
   border-radius: 5px;
   color: #107091;
 }
 /*page accuiel*/
 .accueil {
   position: relative;
-
 }
 
 /* phrase au milieu la page accueil*/
 .phrase {
-   position: absolute;
+  position: absolute;
   left: 50%;
-  transform: translateX(-50%); 
+  transform: translateX(-50%);
   font-size: 40px;
   font-family: light1475496;
   text-align: center;
- 
 }
-.phrase:hover{color: aliceblue;}
+.phrase:hover {
+  color: aliceblue;
+}
 /*bouton doite et gauche pour la caroussel*/
-
-.btnleft{ left: 0px;position: absolute;top:230px;font-size: 45px;padding:15px;
+.btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
-.btnRight{position: absolute; top:230px; right: 0px;font-size: 45px;padding:10px;
-  }
+.btnleft {
+  font-size: 45px;
+}
+.btnright {
+  font-size: 45px;
+}
 
 /* début CSS burger */
 .navBurger {
   margin: 100px auto;
   width: 50%;
   height: 100px;
-  background: white
-  ;
+  background: white;
 }
 
 nav .main_pages {
@@ -126,11 +137,11 @@ nav .main_pages a {
   height: 100px;
   text-decoration: none;
   font-family: Arial, sans-serif;
-  color:  #107091;
+  color: #107091;
 }
 
 nav a:hover {
-  background:  #107091;
+  background: #107091;
 }
 
 label,
@@ -140,3 +151,27 @@ label,
 /* fin CSS header */
 /*footer*/
 
+#fb {
+  width: 30px;
+  height: 30px;
+}
+#insta {
+  width: 30px;
+  height: 30px;
+}
+#linkdlin {
+  width: 30px;
+  height: 30px;
+}
+.logoReseau {
+  background-color: azure;
+  display: flex;
+  justify-content: flex-start;
+}
+.p {
+  font-size: 30px;
+  color: #107091;
+  display: flex;
+  justify-content: center;
+  top: 20px;
+}

@@ -22,47 +22,57 @@
     <header>
       <nav class="nav">
         <div class="navBar">
-          <div class="logoAccuiel">
+          <div class="logoAccueil">
             <img src="/img/logo.jpg" alt="logo du site" />
           </div>
-          <div class="nomprenom">
-            <span> Geraldine de Rodez</span><br />
-            <span>reflexiologue 0673451203</span>
+          <div>
+            <button class="rdv">
+              <a href="https://www.doctolib.fr" target="_blanck">
+                prendre rdv</a
+              >
+            </button>
           </div>
-          <!--navigation bar-->
-
-          <nav class="navBurger">
-            <!--div pour menu desktop-->
-            <label for="toggle">☰</label>
-            <input type="checkbox" id="toggle" />
-            <div class="main_pages">
-              <a href="accueil.html">Accueil</a>
-              <a href="lesSoins.html">Les soins</a>
-              <a href="quiSuisJe.html">Qui suis-je ?</a>
-              <a href="contact.html">Contact</a>
+        </div>
+        <div class="nav2">
+          <div class="nav-2">
+            <div class="nomprenom">
+              <span> Geraldine de Rodez</span><br />
+              <span>reflexiologue 0673451203</span>
             </div>
-          </nav>
-          <!-- boutton humburger-->
+
+            <!--navigation bar-->
+
+            <nav class="navBurger">
+              <!--div pour menu desktop-->
+              <label for="toggle">☰</label>
+              <input type="checkbox" id="toggle" />
+              <div class="main_pages">
+                <a href="accueil.html">Accueil</a>
+                <a href="lesSoins.html">Les soins</a>
+                <a href="quiSuisJe.html">Qui suis-je ?</a>
+                <a href="contact.html">Contact</a>
+              </div>
+            </nav>
+            <!-- boutton humburger-->
+          </div>
         </div>
       </nav>
     </header>
     <section>
       <div class="accueil">
-        <button onclick="slidshowprevious()" class="btnleft"><</button>
+        <div class="btn-container">
+          <button onclick="slidshowprevious()" class="btnleft"><</button>
+          <button onclick="slidshownext()" class="btnright">></button>
+        </div>
         <div class="phrase">
           <h1>La réflexologie dans tous ses états</h1>
         </div>
-        <div>
-          <button class="rdv">
-            <a href="https://www.doctolib.fr" target="_blanck"> prendre rdv</a>
-          </button>
-        </div>
-        <button onclick="slidshownext()" class="btnright">></button>
       </div>
+
       <!--réseaux sociaux-->
     </section>
     <footer>
-     <div class="footer">
+      <div class="footer">
         <div class="p">
           <p>
             "Un voyage de mille lieues commence toujours par un premier pas."
@@ -72,23 +82,25 @@
         <div class="suivezMoi">
           <h2>SUIVEZ-MOI</h2>
         </div>
-          <div class="logoReseaux">
-            <a href="https://fr-fr.facebook.com" target="_blanck"
-              ><img
-                src="https://image.flaticon.com/icons/png/512/733/733547.png"
-                alt="logo Facebook"
-            /></a>
-            <a href="https://instagram.com" target="_blanck"
-              ><img
-                src="https://as1.ftcdn.net/v2/jpg/03/13/76/04/1000_F_313760421_txS6xrTba0qWshvmassQbCXbSlBpW5lG.jpg"
-                alt="logo Instagram"
-            /></a>
-            <a href="https://fr.linkedin.com" target="_blanck"
-              ><img
-                src="https://image.flaticon.com/icons/png/512/174/174857.png"
-                alt="logo LinkedIng"
-            /></a>
-          </div>
+        <div class="logoReseaux">
+          <a href="https://fr-fr.facebook.com" target="_blanck"
+            ><img
+              id="fb"
+              src="https://image.flaticon.com/icons/png/512/733/733547.png"
+              alt="logo Facebook"
+          /></a>
+          <a href="https://instagram.com" target="_blanck"
+            ><img
+              id="insta"
+              src="https://as1.ftcdn.net/v2/jpg/03/13/76/04/1000_F_313760421_txS6xrTba0qWshvmassQbCXbSlBpW5lG.jpg"
+              alt="logo Instagram"
+          /></a>
+          <a href="https://fr.linkedin.com" target="_blanck"
+            ><img
+              id="linkdlin"
+              src="https://image.flaticon.com/icons/png/512/174/174857.png"
+              alt="logo LinkedIng"
+          /></a>
         </div>
       </div>
     </footer>
