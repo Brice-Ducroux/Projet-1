@@ -45,5 +45,50 @@ p {
   padding-bottom: 6%;
   font-size: 16px;
 }
+/* CSS page quiSuisJe */
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;}
+
+#imgQuiSuisJe{
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    text-align: center; 
+}
+
+.containerQuiSuisJe{
+    margin: 0px;
+    padding: 30px;
+    background-color: rgb(26, 115, 138);
+}
+
+.containerFormation{
+    margin: 0px;
+    padding: 30px;
+    background-color: lightgrey;
+
+}
+h1{
+    color: rgb(26, 115, 138);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    background-color: white;
+    padding: 10px;
+}
+
+.quiSuisJeTxt, .formationTxt{
+    color:rgb(26, 115, 138);
+    background-color: white;
+    text-align: center;
+    padding:20px;
+    font-size: 16px;
+
+}
+   
 
 /* css pour scroll top ici */
