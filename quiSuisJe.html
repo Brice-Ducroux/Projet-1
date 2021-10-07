@@ -1,105 +1,136 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "css/styleMobile.css" media="screen and (max-width:640px)"/>
-    <link rel = "stylesheet" href = "css/styleDesktop.css" media="screen and (min-width:641px)"/>
-    <title>Projet1</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styleMobile.css" media="screen and
+            (max-width:640px)" />
+        <link rel="stylesheet" href="css/styleDesktop.css" media="screen and
+            (min-width:641px)" />
+        <title>Projet1</title>
+    </head>
 
-<body>
-<header>
-    <div class="header">
+    <body>
+        <header>
+            <div class="header" id="header">
 
-        <!--div de présentation + logo-->
-            <div class="presentation">
-                <div class="logo">
-                    <img src="img/logo.jpg" alt="logo du site"/>
+                <!--div de présentation + logo-->
+                <div class="presentation">
+                    <div class="logo">
+                        <img src="img/logo.jpg" alt="logo du site" />
+                    </div>
+                    <div class="nomPrenom">
+                        <h1>reflexiologue Boy</h1>
+                        <p>Podologue - 06 67 05 82 17</p>
+                    </div>
                 </div>
-                <div class="nomPrenom">
-                    <h1>reflexiologue Boy</h1>
-                    <p>Podologue - 06 67 05 82 17</p>
+
+                <!--div pour bouton rdv-->
+                <div class="rendezVous">
+                    <p><a href="https://www.doctolib.fr" target="_blanck">Prendre
+                            un RDV</a></p>
                 </div>
-            </div>
-        
-        <!--div pour bouton rdv-->
-            <div class="rendezVous">
-                <p><a href ="https://www.doctolib.fr" target="_blanck">Prendre un RDV</a></p>
-            </div>
-        
-        <!--div pour menu desktop-->
-            <div class="menu">
-                <div class="accueil"><a href="accueil.html">Accueil</a></div>
-                <div class="lesSoins"><a href="lesSoins.html">Les soins</a></div>
-                <div class="quiSuisJe"><a href="quiSuisJe.html">Qui suis-je ?</a></div>
-                <div class="contact"><a href="contact.html">Contact</a></div>
-            </div>
-        
-        
-<!--A FAIRE Javascript ! Placer pour Button -->
-            <div class="burger"></div>
-        
-        </div> 
-</header>
 
-<section>
+                <!--div pour menu desktop-->
+                <div class="menu">
+                    <div class="accueil"><a href="accueil.html">Accueil</a></div>
+                    <div class="lesSoins"><a href="lesSoins.html">Les soins</a></div>
+                    <div class="quiSuisJe"><a href="quiSuisJe.html">Qui suis-je
+                            ?</a></div>
+                    <div class="contact"><a href="contact.html">Contact</a></div>
+                </div>
 
-<!--ATTENTION ! CSS à adpater Desktop et Mobile ! 
+
+                <!--A FAIRE Javascript ! Placer pour Button -->
+                <div class="burger"></div>
+
+            </div>
+        </header>
+
+        <section>
+
+            <!--ATTENTION ! CSS à adpater Desktop et Mobile ! 
     En Desktop : id="imgQuiSuisJe" à droite
                  class="containerQuiSuisJe" à gauche-->
-<div class="bloc">
-    <div id="imgQuiSuisJe"><img src="img/pieds-prestations.jpg" alt="photo de massage"></div>
+            <div class="bloc">
+                <div id="imgQuiSuisJe"><img src="img/pieds-prestations.jpg"
+                        alt="photo de massage"></div>
 
 
-    <div class="containerQuiSuisJe">
+                <div class="containerQuiSuisJe">
 
 
- <!--Attention ! Peut-être revoir le nombre de <br> en fin de ligne en fonction du CSS-->
-            <div class="quiSuisJeTxt">
-                <h1>Qui suis-je ?</h1>
-                <br>
-                <p>Après plusieurs années d'une vie professionnelle riche mais stressante, j'ai décidé en janvier 2018 d'entamer une formation en réflexologie plantaire.</p><br>
-                <p>J'ai enfin trouvé la profession qui me correspond pour son côté humain et naturel.</p><br>
-                <p>Cette formation  m'a transformé et m'a permis de changer ma vision des choses. J'ai compris qu'il fallait laisser ses émotions s'exprimer pour éviter que notre corps ne s'en charge.</p><br>
-                <p>Nous sommes tous pilotés par nos émotions, cependant on ne nous accompagne pas forcément pour mieux les comprendre et mieux les gérer.</p><br>
-                <p>Lorsque vous ne vous exprimez plus c'est votre corps qui parle en développant des deséquilibres internes.</p><br>
-                <p>Je vous propose de découvrir le soins en réfléxologie plantaire, vertébrale, drainant... pour aider à retrouver l'équilibe naturel de votre corps.</p>
+                    <!--Attention ! Peut-être revoir le nombre de <br> en fin de ligne en fonction du CSS-->
+                    <div class="quiSuisJeTxt">
+                        <h1>Qui suis-je ?</h1>
+                        <br>
+                        <p>Après plusieurs années d'une vie professionnelle
+                            riche mais stressante, j'ai décidé en janvier 2018
+                            d'entamer une formation en réflexologie plantaire.</p><br>
+                        <p>J'ai enfin trouvé la profession qui me correspond
+                            pour son côté humain et naturel.</p><br>
+                        <p>Cette formation m'a transformé et m'a permis de
+                            changer ma vision des choses. J'ai compris qu'il
+                            fallait laisser ses émotions s'exprimer pour éviter
+                            que notre corps ne s'en charge.</p><br>
+                        <p>Nous sommes tous pilotés par nos émotions, cependant
+                            on ne nous accompagne pas forcément pour mieux les
+                            comprendre et mieux les gérer.</p><br>
+                        <p>Lorsque vous ne vous exprimez plus c'est votre corps
+                            qui parle en développant des deséquilibres internes.</p><br>
+                        <p>Je vous propose de découvrir le soins en réfléxologie
+                            plantaire, vertébrale, drainant... pour aider à
+                            retrouver l'équilibe naturel de votre corps.</p>
+                    </div>
+                </div>
             </div>
+
+
+            <div class="containerFormation">
+
+
+                <div class="formationTxt">
+                    <h1>Mes Formations</h1>
+                    <br>
+                    <p><strong>2019 : Formation et Certification de réflexologie
+                            professionnelle (Ecole E.T.R.E.!)</p></strong>
+                    <!--Attention ! Peut-être revoir le nombre de <br> en fin de ligne en fonction du CSS-->
+                    <p>La réflexologie est un domaine si vaste qu'une vie ne
+                        suffirait pas à en maîtriser toutes les disciplines...En
+                        parallèle de mes activités en <strong>cabinet</strong>
+                        et de mes <strong>interventions en entreprises</strong>,
+                        j'anime des <strong>ateliers découverte </strong>sur des
+                        thèmes variés.</p>
+                    <p><em>Juillet 2018</em> : Formation Drainage Lymphatique
+                        manuel chez Univers Formations Massages de Brigitte
+                        Schmitt.</p>
+                    <p><em>Novembre 2018</em> : Réflexologie Emotionnelle de
+                        monique Meyrieux.</p>
+                    <p><em>Mars 2019</em> : Réflexologie et cancers (Ecole
+                        E.T.R.E.!)</p>
+                    <p><em>Avril 2019</em> : Réflexologie Vertébrale de Monique
+                        Meyrieux</p>
+                    <p><em>Juin 2019</em> : Réflexologie Pédiatrique (Ecole
+                        E.T.R.E.!)</p>
+                    <p><em>Janvier 2020</em> : le soin énergétique du visage "Le
+                        Kobido" de Monique Meyrieux.</p>
+                    <p><em>Novembre 2020 - Juin 2021</em> : La réflexologie
+                        selon la tradition chinoise de Mireille Meunier.</p>
+                </div>
+
+            </div>
+
+            <!--A FAIRE Javascript ! Intégrer le scroll avec js-->
+
+        </section>
+
+        <div class="btnToTop">
+            <a href="#header"> <img src="img/chevron.svg" alt="bouton to top"></a>
         </div>
-</div>
 
+    </body>
 
-    <div class="containerFormation">
+    <script src="js/scrollTop.js"></script>
 
-    
-        <div class="formationTxt">
-            <h1>Mes Formations</h1>
-            <br>
-            <p><strong>2019 : Formation et Certification de réflexologie professionnelle (Ecole E.T.R.E.!)</p></strong>
-
-<!--Attention ! Peut-être revoir le nombre de <br> en fin de ligne en fonction du CSS-->
-
-            <p>La réflexologie est un domaine si vaste qu'une vie ne suffirait pas à en maîtriser toutes les disciplines...En parallèle de mes activités en <strong>cabinet</strong> et de mes <strong>interventions en entreprises</strong>, j'anime des <strong>ateliers découverte </strong>sur des thèmes variés.</p>
-            <p><em>Juillet 2018</em> : Formation Drainage Lymphatique manuel chez Univers Formations Massages de Brigitte Schmitt.</p>
-            <p><em>Novembre 2018</em> : Réflexologie Emotionnelle de monique Meyrieux.</p>
-            <p><em>Mars 2019</em> : Réflexologie et cancers (Ecole E.T.R.E.!)</p>
-            <p><em>Avril 2019</em> : Réflexologie Vertébrale de Monique Meyrieux</p>
-            <p><em>Juin 2019</em> : Réflexologie Pédiatrique (Ecole E.T.R.E.!)</p>
-            <p><em>Janvier 2020</em> : le soin énergétique du visage "Le Kobido" de Monique Meyrieux.</p>
-            <p><em>Novembre 2020 - Juin 2021</em> : La réflexologie selon la tradition chinoise de Mireille Meunier.</p>
-        </div>
-
-    </div>
-
-<!--A FAIRE Javascript ! Intégrer le scroll avec js-->  
-
-</section>
-
-<footer>
-
-</footer>
-</body>
-
-</html> 
+</html>
