@@ -6,7 +6,7 @@
 /*navigation bar*/
 
 .nav {
-  display: flex;
+  display: flex;justify-content: center;
 }
 .navBar {
   background-color: white;
@@ -23,9 +23,10 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+  
 }
 .nav a:hover {
-  color: black;
+  color: #ECECEC;
 }
 .logoaccueil {
   display: flex;
@@ -57,13 +58,14 @@ a {
   font-family: avenir-lt-w01_35-light1475496, sans-serif;
 }
 /*nom et prenom de la reflexliogue*/
-span {
-  color: #107091;
-  margin: left 10px;
-  font-family: avenir-lt-w01_35-light1475496, sans-serif;
-}
+
+  
+
 .nomprenom {
-  margin-left: -10px;
+  color: #107091;
+ 
+  font-family: avenir-lt-w01_35-light1475496, sans-serif;
+
 }
 /*image d'accueil*/
 .accueil {
@@ -74,22 +76,26 @@ span {
   display: flex;
   align-items: center;
 }
+/*la phrase ecrite sur l'image de la page accueil*/
 .phrase {
   position: absolute;
   top: 200px;
   color:white;
 }
-
-.rdv {
-  left: 0px;
-  top: 0px;
-  margin-bottom: 55px;
-  font-size: 10px;
+/*bouton rdv*/
+.rdv {right: 0px;
+  top:0px;
+ position:absolute;
+  font-size: 20px;
   font-family:light1475496 ;
   border-radius: 5px;
-  color: white;
-  background-color:#107091 ;
+  color:    #107091;
+  
+  background-color:white ;
+  background:  hover #3D3D3D;
 }
+ 
+
 /*page accuiel*/
 .accueil {
   position: relative;
@@ -151,14 +157,16 @@ nav .main_pages a {
   color: #107091;
 }
 
-.logo {
-    width: 50px;
-}
-
 label,
 #toggle {
   display: none;
 }
+/*logo*/
+.logo {
+    width: 100px;
+}
+
+
 /* fin CSS header */
 /*footer*/
 
