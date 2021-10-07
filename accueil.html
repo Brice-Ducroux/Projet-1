@@ -20,7 +20,7 @@
 
     <div class="presentation"><!-- prensetation +logo-->
         <div class="logo">
-            <img src="logo.jpg" alt="logo du site"/>
+            <img src="/img/logo.jpg" alt="logo du site"/>
         </div>
         <div class="nomPrenom">
             <h1>Godeline Boy</h1>
@@ -50,26 +50,24 @@
 <section>
 <!--div pour le carrousselle de photo-->
 <!--A FAIRE Javascript ! scroll de photos-->
-<nav>         
-<Div #img, class="accueil"> 
-        <img  src="https://media.discordapp.net/attachments/892066506005950504/893113904161497108/pied-acceuil4.jpg"alt pieds dans champs vert>
+       
+<div id="img" class="accueil"> 
+        <img  src="https://media.discordapp.net/attachments/892066506005950504/893113904161497108/pied-acceuil4.jpg"alt="pieds dans champs vert"> 
         <!--A FAIRE Javascript ! Placer pour Button -->
         <div class="boutonCarossel">
-            <button id="btnLeft"> < </button>
-            <button id="btnRight"> > </button>        
+            <button onclick="slidshowprevious()" id="btnLeft"> < </button>
+            <button onclick="slidshowprevious()" id="btnRight"> > </button>        
         </div>
        
-        <div class="phrase">
+        <div id="phrase" class="phrase">
 
-<div class="scrollAccueil">
+
     <h1>La réflexologie dans tous ses états</h1>
-    <img src="pied-acceuil4.jpg" alt="photo de pieds nature"/>
-    <img src="cabinet2.jpg" alt="photo cabinet"/>
-    <img src="piedsaccueil3.jpg" alt="photo pieds dans L'eau"/>
+    
 </div>
 
     </div>
-</nav>
+
 <!--réseaux sociaux-->
 <div class="suivezMoi">
     <h1>SUIVEZ-MOI</h1>
@@ -101,4 +99,4 @@
 <script src="js/style.js"></script>
 </body>
 
-    </html> git che
+    </html> 
