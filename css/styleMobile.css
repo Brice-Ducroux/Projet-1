@@ -55,6 +55,36 @@
    input {margin-left: 30px;display: none;}*/
    
    /*bouton burger*/
+   nav {
+    margin: 100px auto;
+    width: 50%;
+    height: 100px;
+    background:white;
+  }
+  
+nav .menu {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  nav .menu a {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    color: white;
+  }nav a:hover {
+    background: #5a5766;
+  }
+  
+  label,
+  #page {
+    display: none;
+  }
    @media all and (max-width: 991px)
 {
     nav
@@ -64,22 +94,12 @@
  
     nav .menu
     {
-        display: none;
+        display: none;flex-direction: column;
+        background: #48435c;
+        height: 220px;
     }
  
-    label 
-    {
-
-    height: 3px;width: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    font-size: 40px;
-    color:#107091;
-    cursor: pointer;
-    
-}
+   
 label, #page
 {
     display: none;
@@ -102,23 +122,25 @@ label, #page
  
     .nav .menu a {
         width: 50%;
-    }label 
+    
     {
-
-    height: 3px;width: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    font-size: 40px;
-    color:#107091;
-    cursor: pointer;
+        label {
+            width: 30px;
+            display : flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            font-size: 40px;
+            color: white;
+            cursor: pointer;
+          }
+    
     
  
     
-#page {display: none;}
-#page:checked + .menu {
-    display: flex;
+
+#page:checked + .menu {  display: flex;}
+  
 
 /*image d'accueil*/
 .accueil {
