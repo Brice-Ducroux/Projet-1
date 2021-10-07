@@ -28,8 +28,69 @@
 #btnRight{margin-right: 200px;     }
 .logoReseau{ display: flex;}
 
+/*Css Formulaire*/
 
+.form{
+    font-size: 15px;
+    color:#25748F;
+}
 
+.formulaire1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: ;
+}
 
-   
+.formulaire2{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.formulaire3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    width: 150px;
+    height: 20px;
+}
+.formulaire1, input{
+    display: flex;
+    justify-content: space-around;  
+}
+
+.formulaire2, input{
+    display: flex;
+    justify-content: space-around;
+}
+.formObj input{
+    width: 320px;
+}
+
+.formMessage textarea{
+    width: 320px;
+    height: 100px;
+}
+
+.submit input{
+    width: 80px;
+    height: 40px;
+    display: flex;
+    background-color: #25748F;
+    border-radius: 5px;
+
+}
+
+input{
+    margin: 10px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+}
 

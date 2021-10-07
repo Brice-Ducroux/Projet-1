@@ -1,0 +1,65 @@
+/*Css Formulaire*/
+
+.form{
+    font-size: 20px;
+    color:#25748F;
+}
+
+.formulaire1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 5px;
+}
+
+.formulaire2{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+.formulaire3{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input{
+    width: 400px;
+    height: 40px;
+}
+.formulaire1, input{
+    display: flex;
+    justify-content: space-around;  
+}
+
+.formulaire2, input{
+    display: flex;
+    justify-content: space-around;
+}
+.formObj input{
+    width: 1000px;
+}
+
+.formMessage textarea{
+    width: 1000px;
+    height: 400px;
+}
+
+.submit input{
+    width: 400px;
+    height: 80px;
+    display: flex;
+    background-color: #25748F;
+    border-radius: 5px;
+    font-size: 30px;
+}
+
+input{
+    margin: 10px;
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+}
