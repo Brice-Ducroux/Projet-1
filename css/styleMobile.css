@@ -47,11 +47,13 @@ a {
   font-family: avenir-lt-w01_35-light1475496, sans-serif;
 }
 /* nom et prenom*/
-span {
+
+
+.nomprenom {
   color: #107091;
-  margin: left 10px;
+ 
   font-family: avenir-lt-w01_35-light1475496, sans-serif;
-  display: block;
+
 }
 
 /* label{margin-left: 30px;
@@ -99,9 +101,6 @@ nav .main_pages {
 
 /* css logo */
 
-.presentation {
-  background-color: white;
-}
 
 nav {
   height: 60px;
