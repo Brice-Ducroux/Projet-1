@@ -66,13 +66,13 @@ nav {
   background: white;
 }
 
-nav .menu {
+nav .main_pages {
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-nav .menu a {
+nav .main_pages a {
   width: 20%;
   display: flex;
   align-items: center;
@@ -90,7 +90,7 @@ nav {
   height: 60px;
 }
 
-nav .menu {
+nav .main_pages{
   display: none;
   flex-direction: column;
   background: #48435c;
@@ -107,14 +107,14 @@ nav {
   height: 60px;
 }
 
-.nav .menu {
+.nav .main_pages {
   display: none;
   flex-direction: column;
   background: #48435c;
   height: 220px;
 }
 
-.nav .menu a {
+.nav .main_pages a {
   width: 50%;
 }
 label {
@@ -197,7 +197,7 @@ label {
   height: 45px;
 }
 .main_pages.a {
-  text-decoration: nan;
+  text-decoration: none;
   color: rgb(6, 114, 114);
   font-size: 10px;
   margin-right: 10px;

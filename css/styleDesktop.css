@@ -4,6 +4,7 @@
   box-sizing: border-box;
 }
 /*navigation bar*/
+
 .navBar {
   background-color: white;
   height: 100px;
@@ -76,21 +77,23 @@ span {
   font-family: "Courier New", Courier, monospace;
   margin-bottom: 40px;
   border-radius: 5px;
+  color: #107091;
 }
 /*page accuiel*/
-.acueil {
+.accueil {
   position: relative;
+
 }
 
 /* phrase au milieu la page accueil*/
-.phrasse {
-  position: absolute;
-  display: flex;
-  justify-content: center;
+.phrase {
+   position: absolute;
+  left: 50%;
+  transform: translateX(-50%); 
   font-size: 10px;
   font-family: light1475496;
   text-align: center;
-  margin-left: 100px;
+ 
 }
 /*bouton doite et gauche pour la caroussel
 
@@ -99,12 +102,13 @@ span {
 .btnRight{position: absolute; top:230px; right: 0px;font-size: 45px;padding:10px;
   }*/
 
-/* début CSS header */
-nav {
+/* début CSS burger */
+.navBurger {
   margin: 100px auto;
   width: 50%;
   height: 100px;
-  background: #48435c;
+  background: white
+  ;
 }
 
 nav .main_pages {
@@ -121,11 +125,11 @@ nav .main_pages a {
   height: 100px;
   text-decoration: none;
   font-family: Arial, sans-serif;
-  color: white;
+  color:  #107091;
 }
 
 nav a:hover {
-  background: #5a5766;
+  background:  #107091;
 }
 
 label,
@@ -133,3 +137,5 @@ label,
   display: none;
 }
 /* fin CSS header */
+/*footer*/
+
