@@ -41,6 +41,198 @@ justify-content: space-between;
   display: flex;
   align-items: center;
 }
+/*Css Formulaire*/
+
+.form {
+  font-size: 20px;
+  color: #25748f;
+}
+
+.formulaire1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 5px;
+}
+
+.formulaire2 {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.formulaire3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 400px;
+  height: 40px;
+}
+.formulaire1,
+input {
+  display: flex;
+  justify-content: space-around;
+}
+
+.formulaire2,
+input {
+  display: flex;
+  justify-content: space-around;
+}
+.formObj input {
+  width: 1000px;
+}
+
+.formMessage textarea {
+  width: 1000px;
+  height: 400px;
+}
+
+.submit input {
+  width: 400px;
+  height: 80px;
+  display: flex;
+  background-color: #25748f;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+input {
+  margin: 10px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+/* CSS Desktop - page contact*/
+
+.containerContactezMoi {
+  background-color: white;
+  color: rgb(26, 115, 138);
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: 0px;
+  border: 80px solid rgb(26, 115, 138);
+  font-size: 23px;
+  padding: 10px;
+}
+
+.containerContactezMoi h1 {
+  font-size: 70px;
+}
+
+.logoReseaux {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logoReseaux a {
+  padding: 2rem;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+}
+
+#logoinsta {
+  width: 50px;
+}
+.containerMonCabinet {
+  background-color: white;
+  color: rgb(26, 115, 138);
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: 0px;
+  border: 80px solid rgb(26, 115, 138);
+  font-size: 23px;
+}
+
+.containerMonCabinet h1 {
+  font-size: 70px;
+}
+
+.mapHoraire {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+}
+.map-responsive {
+  width: 50%;
+}
+
+.map-responsive iframe {
+  width: 100%;
+  min-height: 500px;
+}
+
+.horaires {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 30px;
+  padding-top: 30px;
+  padding-left: 250px;
+}
+
+ul {
+  list-style-type: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 23px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 40px;
+}
+
+.matin p {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.apresMidi p {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.containerFooter {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 23px;
+  text-align: center;
+  background-color: rgb(26, 115, 138);
+  color: white;
+  margin: max-content;
+  padding: 8px;
+}
+
+.containerFooter h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+}
+
 /*menu */
 .menu {
   padding: 40px;

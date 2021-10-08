@@ -54,79 +54,6 @@ a {
   font-family: avenir-lt-w01_35-light1475496, sans-serif;
 }
 
-/* label{margin-left: 30px;
-   display: flex;}
-   input {margin-left: 30px;display: none;}*/
-
-/*bouton burger*/
-nav {
-  margin: 100px auto;
-  width: 50%;
-  height: 100px;
-  background: white;
-}
-
-nav .main_pages {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-nav .main_pages a {
-  width: 20%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
-  text-decoration: none;
-  font-family: Arial, sans-serif;
-  color: white;
-}
-nav a:hover {
-  background: #5a5766;
-}
-
-nav {
-  height: 60px;
-}
-
-nav .main_pages {
-  display: none;
-  flex-direction: column;
-  background: #48435c;
-  height: 220px;
-}
-
-/* css logo */
-
-nav {
-  height: 60px;
-}
-
-.nav .main_pages {
-  display: none;
-  flex-direction: column;
-  background: #48435c;
-  height: 220px;
-}
-
-.nav .main_pages a {
-  width: 50%;
-}
-label {
-  width: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  font-size: 40px;
-  color: white;
-  cursor: pointer;
-}
-
-#page:checked + .menu {
-  display: flex;
-}
 
 /*image d'accueil*/
 .accueil {
@@ -233,64 +160,6 @@ label {
   margin-right: 200px;
 }
 .logoReseau {
-  display: flex;
-}
-
-/* début CSS header */
-nav {
-  margin: 100px auto;
-  width: 50%;
-  height: 100px;
-  background: #48435c;
-}
-
-nav .main_pages {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-
-nav a:hover {
-  background: #5a5766;
-}
-
-label,
-#toggle {
-  display: none;
-}
-/* fin CSS header */
-
-nav {
-  height: 60px;
-}
-
-nav .main_pages {
-  display: none;
-  flex-direction: column;
-  background: rgb(6, 114, 114);
-  height: 220px;
-}
-nav .main_pages a {
-  width: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
-  text-decoration: none;
-  font-family: Arial, sans-serif;
-  color: white;
-}
-label {
-  width: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-  font-size: 40px;
-  color: rgb(6, 114, 114);
-  cursor: pointer;
-}
-#toggle:checked + .main_pages {
   display: flex;
 }
 
@@ -430,35 +299,6 @@ a {
   border-color: transparent;
 }
 
-/* début CSS burger */
-.navBurger {
-  width: 100%;
-  height: auto;
-  background: white;
-}
-
-.main_pages {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 100%;
-}
-
-nav .main_pages a {
-  width: 20%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100px;
-  text-decoration: none;
-  font-family: Arial, sans-serif;
-  color: #107091;
-}
-
-label,
-#toggle {
-  display: none;
-}
 /*logo*/
 .logo {
   width: 100px;
@@ -501,7 +341,249 @@ label,
  font-size: 10px;
  margin-right: 35px;
  color:rgb(6, 114, 114);
- font-family: ;
+}
+
+label, #toggle
+{
+    display: none;
+}
+nav {
+  margin: 100px auto;
+  width: 50%;
+  height: 100px;
+  background: #48435c;
+}
+
+nav .main_pages {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: visible;
+  z-index: 999;
+}
+
+nav .main_pages a {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: white;
+  z-index: 999;
+}
+
+
+nav
+    {
+        height: 60px;
+    }
+ 
+    nav .main_pages 
+    {
+        display: none;
+        flex-direction: column;
+        background: #48435C;
+        height: 220px;
+    }
+ 
+    nav .main_pages a {
+        width: 50%;
+    }
+ 
+    label 
+    {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+ 
+    #toggle:checked + .main_pages {
+        display: flex;
+    }
+
+/* CSS mobile - page contact*/
+
+.containerContactezMoi {
+  background-color: white;
+  color: rgb(26, 115, 138);
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: 0px;
+  border: 30px solid lightgrey;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.containerContactezMoi h1 {
+  font-size: 25px;
+}
+
+.logoReseaux {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+img {
+  width: 40px;
+  height: 40px;
+}
+
+.containerMonCabinet {
+  background-color: white;
+  color: rgb(26, 115, 138);
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: 0px;
+  border: 30px solid lightgrey;
+  font-size: 16px;
+  padding-bottom: 20px;
+  padding-left: 7px;
+}
+
+.containerMonCabinet h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+/*Css Formulaire*/
+
+.form {
+  font-size: 15px;
+  color: #25748f;
+}
+
+.formulaire1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.formulaire2 {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.formulaire3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 150px;
+  height: 20px;
+}
+.formulaire1,
+input {
+  display: flex;
+  justify-content: space-around;
+}
+
+.formulaire2,
+input {
+  display: flex;
+  justify-content: space-around;
+}
+.formObj input {
+  width: 320px;
+}
+
+.formMessage textarea {
+  width: 320px;
+  height: 100px;
+}
+
+.submit input {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  background-color: #25748f;
+  border-radius: 5px;
+}
+
+input {
+  margin: 10px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 80%;
+  width: 80%;
+  position: absolute;
+  margin-left: 25px;
+}
+
+.horaires {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  font-size: 10px;
+}
+
+.matin p {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.apresMidi {
+  position: relative;
+  left: 1px;
+}
+.apresMidi p {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.containerFooter {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  text-align: center;
+  background-color: rgb(26, 115, 138);
+  color: white;
+  margin: max-content;
+  padding: 8px;
+}
+
+.containerFooter h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
 }
  
  
