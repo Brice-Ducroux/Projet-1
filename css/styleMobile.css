@@ -48,12 +48,10 @@ a {
 }
 /* nom et prenom*/
 
-
 .nomprenom {
   color: #107091;
- 
-  font-family: avenir-lt-w01_35-light1475496, sans-serif;
 
+  font-family: avenir-lt-w01_35-light1475496, sans-serif;
 }
 
 /* label{margin-left: 30px;
@@ -85,8 +83,8 @@ nav .main_pages a {
   color: white;
 }
 nav a:hover {
-    background: #5a5766;
-  }
+  background: #5a5766;
+}
 
 nav {
   height: 60px;
@@ -100,7 +98,6 @@ nav .main_pages {
 }
 
 /* css logo */
-
 
 nav {
   height: 60px;
@@ -139,8 +136,8 @@ label {
 }
 /* button rdv*/
 .rdv {
-  background-color: #25748f;
-  font-family: "Courier New", Courier, monospace;
+  background-color: white;
+  font-family: Arial, sans-serif;
   margin-bottom: 35px;
 }
 /*page accuiel*/
@@ -296,3 +293,203 @@ label {
 #toggle:checked + .main_pages {
   display: flex;
 }
+
+/*navigation bar*/
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.navBar {
+  background-color: white;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navBar2 {
+  background-color: white;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav a:hover {
+  color: #ececec;
+}
+.logoaccueil {
+  display: flex;
+  align-items: flex-start;
+}
+
+.nav2 {
+  width: 60%;
+  justify-content: space-between;
+}
+.nav-2 {
+  display: flex;
+  align-items: center;
+}
+/*menu */
+.menu {
+  padding: 40px;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+a {
+  color: #107091;
+  margin: left 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: avenir-lt-w01_35-light1475496, sans-serif;
+}
+/*nom et prenom de la reflexliogue*/
+
+.nomprenom {
+  color: #107091;
+
+  font-family: avenir-lt-w01_35-light1475496, sans-serif;
+}
+/*image d'accueil*/
+.accueil {
+  background: url(../img/pied-accueil4.jpg) no-repeat center;
+  min-height: 100vh;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+/*la phrase ecrite sur l'image de la page accueil*/
+.phrase {
+  position: absolute;
+  top: 200px;
+  color: white;
+}
+/*bouton rdv*/
+.rdv {
+  right: 0px;
+  top: 0px;
+  position: absolute;
+  font-size: 20px;
+  font-family: light1475496;
+  border-radius: 5px;
+  color: #107091;
+
+  background-color: white;
+  background: hover #3d3d3d;
+}
+
+/*page accuiel*/
+.accueil {
+  position: relative;
+}
+
+/* phrase au milieu la page accueil*/
+.phrase {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+  font-family: light1475496;
+  text-align: center;
+}
+.phrase:hover {
+  color: #107091;
+}
+/*bouton doite et gauche pour la caroussel*/
+.btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.btnleft {
+  font-size: 45px;
+  color: white;
+  background-color: transparent;
+  border-color: transparent;
+}
+.btnright {
+  font-size: 45px;
+  color: white;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+/* début CSS burger */
+.navBurger {
+  width: 100%;
+  height: auto;
+  background: white;
+}
+
+.main_pages {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+nav .main_pages a {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: #107091;
+}
+
+label,
+#toggle {
+  display: none;
+}
+/*logo*/
+.logo {
+  width: 100px;
+}
+
+/* fin CSS header */
+
+/*footer*/
+
+#fb {
+  width: 30px;
+  height: 30px;
+}
+#insta {
+  width: 30px;
+  height: 30px;
+}
+#linkdlin {
+  width: 30px;
+  height: 30px;
+}
+.logoReseaux {
+  background-color: azure;
+  display: flex;
+
+  justify-content: flex-end;
+  margin-right: 50px;
+  margin-right: 20px;
+  
+}
+.p {
+  font-size: 15px;
+  color: #107091;
+  display: flex;
+  justify-content: center;
+  top: 20px;
+}
+
+.suivezMoi{display: flex;
+justify-content: flex-end;
+font-size: 15px;
+}
+ 
+ 
