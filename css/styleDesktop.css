@@ -1,0 +1,397 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*navigation bar*/
+
+.nav {
+  display: flex;justify-content: center;
+}
+.navBar {
+  background-color: white;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navBar2 {
+    background-color: white;
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  
+}
+.nav a:hover {
+  color: #ECECEC;
+}
+.logoaccueil {
+  display: flex;
+  align-items: flex-start;
+}
+
+.nav2 {
+  width: 60%;
+justify-content: space-between;
+}
+.nav-2 {
+  display: flex;
+  align-items: center;
+}
+/*Css Formulaire*/
+
+.form {
+  font-size: 20px;
+  color: #25748f;
+}
+
+.formulaire1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 5px;
+}
+
+.formulaire2 {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.formulaire3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 400px;
+  height: 40px;
+}
+.formulaire1,
+input {
+  display: flex;
+  justify-content: space-around;
+}
+
+.formulaire2,
+input {
+  display: flex;
+  justify-content: space-around;
+}
+.formObj input {
+  width: 1000px;
+}
+
+.formMessage textarea {
+  width: 1000px;
+  height: 400px;
+}
+
+.submit input {
+  width: 400px;
+  height: 80px;
+  display: flex;
+  background-color: #25748f;
+  border-radius: 5px;
+  font-size: 30px;
+}
+
+input {
+  margin: 10px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+/* CSS Desktop - page contact*/
+
+.containerContactezMoi {
+  background-color: white;
+  color: rgb(26, 115, 138);
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: 0px;
+  border: 80px solid rgb(26, 115, 138);
+  font-size: 23px;
+  padding: 10px;
+}
+
+.containerContactezMoi h1 {
+  font-size: 70px;
+}
+
+.logoReseaux {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.logoReseaux a {
+  padding: 2rem;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+}
+
+#logoinsta {
+  width: 50px;
+}
+.containerMonCabinet {
+  background-color: white;
+  color: rgb(26, 115, 138);
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: 0px;
+  border: 80px solid rgb(26, 115, 138);
+  font-size: 23px;
+}
+
+.containerMonCabinet h1 {
+  font-size: 70px;
+}
+
+.mapHoraire {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
+}
+.map-responsive {
+  width: 50%;
+}
+
+.map-responsive iframe {
+  width: 100%;
+  min-height: 500px;
+}
+
+.horaires {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 30px;
+  padding-top: 30px;
+  padding-left: 250px;
+}
+
+ul {
+  list-style-type: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 23px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 40px;
+}
+
+.matin p {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.apresMidi p {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.containerFooter {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 23px;
+  text-align: center;
+  background-color: rgb(26, 115, 138);
+  color: white;
+  margin: max-content;
+  padding: 8px;
+}
+
+.containerFooter h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+}
+
+/*menu */
+.menu {
+  padding: 40px;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+a {
+  color: #107091;
+  margin: left 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: avenir-lt-w01_35-light1475496, sans-serif;
+}
+/*nom et prenom de la reflexliogue*/
+
+  
+
+.nomprenom {
+  color: #107091;
+ 
+  font-family: avenir-lt-w01_35-light1475496, sans-serif;
+}
+/*image d'accueil*/
+.accueilCaroussel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 60px;
+}
+/*la phrase ecrite sur l'image de la page accueil*/
+.phrase {
+  color:#107091;
+}
+/*bouton rdv*/
+.rdv {right: 50px;
+  top:50px;
+  position:absolute;
+  font-size: 20px;
+  border-radius: 5px;
+  font-family:light1475496 ;
+  width: 120px;
+  height: 50px;;
+  background:  hover #3D3D3D; 
+  background-color: #107091;
+  margin-bottom: 35px;
+  border: #107091;
+}
+
+.rdv a { 
+  color:white;
+}
+ 
+
+/* phrase au milieu la page accueil*/
+.phrase {
+  font-size: 30px;
+  font-family: light1475496;
+  text-align: center;
+}
+.phrase:hover {
+  color:#107091;
+}
+/*bouton doite et gauche pour la caroussel*/
+.btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.btnleft {
+  font-size: 45px;
+  color: white;
+  background-color: transparent; 
+  border-color: transparent;
+}
+.btnright {
+  font-size: 45px;
+  color: white;
+  background-color: transparent; 
+  border-color: transparent;
+}
+
+/* début CSS burger */
+.navBurger {
+  width: 100%;
+  height: auto;
+  background: white;
+}
+
+.main_pages {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+
+nav .main_pages a {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: #107091;
+}
+
+label,
+#toggle {
+  display: none;
+}
+/*logo*/
+.logo {
+    width: 100px;
+}
+
+
+/* fin CSS header */
+
+/*footer*/
+
+#fb {
+  width: 30px;
+  height: 30px;
+}
+#insta {
+  width: 30px;
+  height: 30px;
+}
+#linkdlin {
+  width: 30px;
+  height: 30px;
+}
+.logoReseaux {
+  background-color: azure;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+
+.p {
+  font-size: 30px;
+  color: #107091;
+  display: flex;
+  justify-content: center;
+  top: 20px;
+}
+
+
+.suivezMoi{
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 50px;
+  color:rgb(6, 114, 114);
+}
+
+#imgCaroussel{
+  width: 80vw;
+  height: auto;
+}

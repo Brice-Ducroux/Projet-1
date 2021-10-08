@@ -1,35 +1,589 @@
-/* body  */
-
-
-/* css logo */
-
-.presentation {
-    background-color: yellow;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.nomPrenom{background-color: tomato; display: flex; justify-content: center;font-style: italic;
-    size: 2;font-family: 'Courier New', Courier, monospace; align-items: center;flex-direction: column;}
-     
-.logo { margin-right: 0;width: 45px;height: 45px; }
-.menu.a { text-decoration: nan; color:rgb(6, 114, 114) ;font-size: 10px; margin-right: 10px;}
-.a.hover { color: white;}
+/* navigateur barre*/
+.nav {
+  background-color: #ffffffdf;
+  height: 100px;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: space-around;
+  gap: 15px;
+}
+/* logo accueil*/
+.logoAccueil {
+  display: flex;
+  margin-right: 0px;
+}
+.logoAccueil img {
+  width: 30px;
+  height: 20px;
+}
+/* menu lien */
+.menu {
+  display: none;
+  padding: 40px;
+}
+/*list */
+.menu ul {
+  display: none;
+  list-style: none;
+  gap: 30px;
+}
+/*link*/
+a {
+  color: #107091;
+  margin: left 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: avenir-lt-w01_35-light1475496, sans-serif;
+}
+/* nom et prenom*/
 
+.nomprenom {
+  color: #107091;
+
+  font-family: avenir-lt-w01_35-light1475496, sans-serif;
+}
+
+
+/*image d'accueil*/
+.accueil {
+  background: url(../img/pied-accueil4.jpg) no-repeat center;
+  min-height: 100vh;
+  background-size: cover;
+}
+/* button rdv*/
+.rdv {
+  background-color: white;
+  font-family: Arial, sans-serif;
+  margin-bottom: 35px;
+}
+/*page accuiel*/
+.acueil img {
+  position: absolute;
+}
+
+/* phrase au milieu la page accueil*/
+.phrase {
+  position: absolute;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+  font-family: light1475496;
+}
+/*bouton doite et gauche pour la caroussel*/
+
+#btnLeft {
+  left: 0px;
+  position: absolute;
+  top: 230px;
+  font-size: 45px;
+  padding: 10px;
+  background-color: transparent;
+}
+#btnright {
+  position: absolute;
+  top: 230px;
+  right: 0px;
+  font-size: 45px;
+  padding: 10px;
+}
+
+/* footer*/
+.logoReseau {
+  display: flex;
+}
+.nomPrenom {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  size: 2;
+  font-family: "Courier New", Courier, monospace;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  margin-right: 0;
+  width: 45px;
+  height: 45px;
+}
+.main_pages.a {
+  text-decoration: none;
+  color: rgb(6, 114, 114);
+  font-size: 10px;
+  margin-right: 10px;
+}
+.a.hover {
+  color: white;
+}
 
 /* button rdv*/
-.rendezvous{
-   background-color: #25748F;font-family: 'Courier New', Courier, monospace;margin-bottom: 40px;
-} 
+.rendezvous {
+  background-color: #25748f;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 40px;
+}
 /*page accuiel*/
-.acueil img {max-width: 800px; position: relative; }
-.phrasse{position:absolute;top: 200px; display: flex; justify-content: center;font-size: 10px;}
+.acueil img {
+  max-width: 800px;
+  position: relative;
+}
+.phrasse {
+  position: absolute;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+}
 
-.buttonCarossel{  position: absolute; background-color: transparent; font-size: 20px;}
-#btnLeft{ margin-left: 200px;}
-#btnRight{margin-right: 200px;     }
-.logoReseau{ display: flex;}
+.buttonCarossel {
+  position: absolute;
+  background-color: transparent;
+  font-size: 20px;
+}
+#btnLeft {
+  margin-left: 200px;
+}
+#btnRight {
+  margin-right: 200px;
+}
+.logoReseau {
+  display: flex;
+}
+
+/*navigation bar*/
+
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.navBar {
+  background-color: white;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.navBar2 {
+  background-color: white;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.nav a:hover {
+  color: #ececec;
+}
+.logoaccueil {
+  display: flex;
+  align-items: flex-start;
+}
+
+.nav2 {
+  width: 60%;
+  justify-content: space-between;
+}
+.nav-2 {
+  display: flex;
+  align-items: center;
+}
+/*menu */
+.menu {
+  padding: 40px;
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+a {
+  color: #107091;
+  margin: left 20px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: avenir-lt-w01_35-light1475496, sans-serif;
+}
+/*nom et prenom de la reflexliogue*/
+
+.nomprenom {
+  color: #107091;
+
+  font-family: avenir-lt-w01_35-light1475496, sans-serif;
+}
+/*image d'accueil*/
+.accueil {
+  background: url(../img/pied-accueil4.jpg) no-repeat center;
+  min-height: 100vh;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+/*la phrase ecrite sur l'image de la page accueil*/
+.phrase {
+  position: absolute;
+  top: 200px;
+  color: white;
+}
+
+.phrase h1{ 
+  font-size: 20px;
+}
+
+/*bouton rdv*/
+.rdv {
+  right: 0px;
+  top: 0px;
+  position: absolute;
+  font-size: 20px;
+  font-family: light1475496;
+  border-radius: 5px;
+  background: hover #3d3d3d;
+  background-color: #107091;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.rdv a { 
+  color:white;
+}
+ 
+
+/*page accuiel*/
+.accueil {
+  position: relative;
+}
+
+/* phrase au milieu la page accueil*/
+.phrase {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 30px;
+  font-family: light1475496;
+  text-align: center;
+}
+.phrase:hover {
+  color: #107091;
+}
+/*bouton doite et gauche pour la caroussel*/
+.btn-container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+.btnleft {
+  font-size: 45px;
+  color: white;
+  background-color: transparent;
+  border-color: transparent;
+}
+.btnright {
+  font-size: 45px;
+  color: white;
+  background-color: transparent;
+  border-color: transparent;
+}
+
+/*logo*/
+.logo {
+  width: 100px;
+}
+
+/* fin CSS header */
+
+/*footer*/
+
+#fb {
+  width: 30px;
+  height: 30px;
+}
+#insta {
+  width: 30px;
+  height: 30px;
+}
+#linkdlin {
+  width: 30px;
+  height: 30px;
+}
+.logoReseaux {
+  background-color: azure;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 20px;
+}
+
+.p {
+  font-size: 15px;
+  color: #107091;
+  display: flex;
+  justify-content: center;
+  top: 20px;
+}
+
+.suivezMoi{
+ display: flex;
+ justify-content: flex-end;
+ font-size: 10px;
+ margin-right: 35px;
+ color:rgb(6, 114, 114);
+}
+
+label, #toggle
+{
+    display: none;
+}
+nav {
+  margin: 100px auto;
+  width: 50%;
+  height: 100px;
+  background: #48435c;
+}
+
+nav .main_pages {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  overflow: visible;
+  z-index: 999;
+}
+
+nav .main_pages a {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: white;
+  z-index: 999;
+}
 
 
+nav
+    {
+        height: 60px;
+    }
+ 
+    nav .main_pages 
+    {
+        display: none;
+        flex-direction: column;
+        background: #48435C;
+        height: 220px;
+    }
+ 
+    nav .main_pages a {
+        width: 50%;
+    }
+ 
+    label 
+    {
+        width: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        font-size: 40px;
+        color: white;
+        cursor: pointer;
+    }
+ 
+    #toggle:checked + .main_pages {
+        display: flex;
+    }
 
+/* CSS mobile - page contact*/
 
-   
+.containerContactezMoi {
+  background-color: white;
+  color: rgb(26, 115, 138);
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: 0px;
+  border: 30px solid lightgrey;
+  font-size: 16px;
+  padding: 5px;
+}
 
+.containerContactezMoi h1 {
+  font-size: 25px;
+}
+
+.logoReseaux {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+img {
+  width: 40px;
+  height: 40px;
+}
+
+.containerMonCabinet {
+  background-color: white;
+  color: rgb(26, 115, 138);
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: 0px;
+  border: 30px solid lightgrey;
+  font-size: 16px;
+  padding-bottom: 20px;
+  padding-left: 7px;
+}
+
+.containerMonCabinet h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
+
+/*Css Formulaire*/
+
+.form {
+  font-size: 15px;
+  color: #25748f;
+}
+
+.formulaire1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.formulaire2 {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
+}
+
+.formulaire3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input {
+  width: 150px;
+  height: 20px;
+}
+.formulaire1,
+input {
+  display: flex;
+  justify-content: space-around;
+}
+
+.formulaire2,
+input {
+  display: flex;
+  justify-content: space-around;
+}
+.formObj input {
+  width: 320px;
+}
+
+.formMessage textarea {
+  width: 320px;
+  height: 100px;
+}
+
+.submit input {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  background-color: #25748f;
+  border-radius: 5px;
+}
+
+input {
+  margin: 10px;
+}
+
+.submit {
+  display: flex;
+  justify-content: center;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 80%;
+  width: 80%;
+  position: absolute;
+  margin-left: 25px;
+}
+
+.horaires {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  font-size: 10px;
+}
+
+.matin p {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.apresMidi {
+  position: relative;
+  left: 1px;
+}
+.apresMidi p {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.containerFooter {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  text-align: center;
+  background-color: rgb(26, 115, 138);
+  color: white;
+  margin: max-content;
+  padding: 8px;
+}
+
+.containerFooter h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+}
+ 
+ 

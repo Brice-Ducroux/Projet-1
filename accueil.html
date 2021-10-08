@@ -18,48 +18,46 @@
   </head>
 
   <body>
+    <!--header-->
     <header>
-      <!--navigation bar-->
-
-      <div class="presentation">
-        <!-- prensetation +logo-->
-        <div class="logo">
-          <img src="/img/logo.jpg" alt="logo du site" />
+      <nav class="nav">
+        <div class="navBar">
+          <div class="logoAccueil">
+            <img class="logo" src="/img/logo.jpg" alt="logo du site" />
+          </div>
+          
+          
         </div>
-        <div class="nomPrenom">
-          <h1>Godeline Boy</h1>
-          <p>Podologue - 06 67 05 82 17</p>
+        <div class="navBar2">
+            <div class="nomprenom">
+                Geraldine de Rodez<br/>reflexiologue 0673451203
+              </div>
+          </div>
+        <div class="nav2">
+          <div class="nav-2">
+
+
+            <!--navigation bar-->
+
+            <nav class="navBurger">
+              <!--nav bar et boutoun burger
+              -->
+              <label for="toggle">☰</label>
+              <input type="checkbox" id="toggle" />
+              <div class="main_pages">
+                <a href="accueil.html">Accueil</a>
+                <a href="lesSoins.html">Les soins</a>
+                <a href="quiSuisJe.html">Qui suis-je ?</a>
+                <a href="contact.html">Contact</a>
+              </div>
+            </nav>
+            
+          </div>
         </div>
-      </div>
-
-      <!--div pour bouton rdv-->
-      <div class="rendezVous">
-        <p>
-          <a href="https://www.doctolib.fr" target="_blanck">Prendre un RDV</a>
-        </p>
-      </div>
-
-      <!--div pour menu desktop-->
-      <div class="menu">
-        <div class="accueil"><a href="accueil.html">Accueil</a></div>
-        <div class="lesSoins"><a href="lesSoins.html">Les soins</a></div>
-        <div class="quiSuisJe"><a href="quiSuisJe.html">Qui suis-je ?</a></div>
-        <div class="contact"><a href="contact.html">Contact</a></div>
-      </div>
-      <!--div pour bouton rdv-->
-
-      <div class="rendezVous">
-        <button id="rdv">
-          <a href="https://www.doctolib.fr">Prendre un RDV</a>
-        </button>
-      </div>
+      </nav>
     </header>
-
     <section>
-      <!--div pour le carrousselle de photo-->
-      <!--A FAIRE Javascript ! scroll de photos-->
-
-      <div class="accueil">
+      <div class="accueilCaroussel">
         <img
           id="imgCaroussel"
           src="img/pied-accueil4.jpg"
@@ -76,48 +74,38 @@
         </div>
       </div>
 
-      <!--réseaux sociaux-->
-      <div class="suivezMoi">
-        <h1>SUIVEZ-MOI</h1>
-      </div>
-      <div class="logoReseaux">
-        <a href="https://fr-fr.facebook.com" target="_blanck"
-          ><img
-            src="https://image.flaticon.com/icons/png/512/733/733547.png"
-            alt="logo Facebook"
-        /></a>
-        <a href="https://instagram.com" target="_blanck"
-          ><img
-            src="https://as1.ftcdn.net/v2/jpg/03/13/76/04/1000_F_313760421_txS6xrTba0qWshvmassQbCXbSlBpW5lG.jpg"
-            alt="logo Instagram"
-        /></a>
-        <a href="https://fr.linkedin.com" target="_blanck"
-          ><img
-            src="https://image.flaticon.com/icons/png/512/174/174857.png"
-            alt="logo LinkedIng"
-        /></a>
-      </div>
-    </section>
 
+      <!--réseaux sociaux-->
+    </section>
     <footer>
       <div class="footer">
-        <p>"Un voyage de mille lieues commence toujours par un premier pas."</p>
-        <p>-Loa Tzu-</p>
-      </div>
-      <div class="suivezMoi">
-        <h1>SUIVEZ-MOI</h1>
-      </div>
-      <div class="logoReseaux">
-        <div><a href="https://fr-fr.facebook.com"><img src=></a></div>
-        <div>
-          <a href="https://instagram.com"
-            ><img src=><!--A FAIRE ! Logo réseau--></a
-          >
+        <div class="p">
+         <p>"Un voyage de mille lieues commence toujours par un premier pas"</p>
+            
+             <p> -Loa Tzu-</p>
+         
         </div>
-        <div>
-          <a href="https://fr.linkedin.com"
+     
+        <div class="suivezMoi">
+          SUIVEZ-MOI
+        </div>
+        <div class="logoReseaux">
+          <a href="https://fr-fr.facebook.com" target="_blanck"
             ><img
-              src="https://images-ext-1.discordapp.net/external/D--j5S-RjcoFF_iROnUH_PQVANqq0LbqXLeXSY8vVnM/https/image.flaticon.com/icons/png/512/779/779096.png"
+              id="fb"
+              src="https://image.flaticon.com/icons/png/512/733/733547.png"
+              alt="logo Facebook"
+          /></a>
+          <a href="https://instagram.com" target="_blanck"
+            ><img
+              id="insta"
+              src="https://as1.ftcdn.net/v2/jpg/03/13/76/04/1000_F_313760421_txS6xrTba0qWshvmassQbCXbSlBpW5lG.jpg"
+              alt="logo Instagram"
+          /></a>
+          <a href="https://fr.linkedin.com" target="_blanck"
+            ><img
+              id="linkdlin"
+              src="https://image.flaticon.com/icons/png/512/174/174857.png"
               alt="logo LinkedIng"
           /></a>
         </div>
