@@ -1,157 +1,192 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel = "stylesheet" href = "css/styleMobile.css" media="screen and (max-width:640px)"/>
-    <link rel = "stylesheet" href = "css/styleDesktop.css" media="screen and (min-width:641px)"/>
-    <title>Projet1</title>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/styleMobile.css" media="screen and
+            (max-width:640px)" />
+        <link rel="stylesheet" href="css/styleDesktop.css" media="screen and
+            (min-width:641px)" />
+        <title>Projet1</title>
+    </head>
 
-<body>
-<header>
-    <div class="header">
+    <body>
+        <header>
+            <div class="header">
 
-        <!--div de présentation + logo-->
-            <div class="presentation">
-                <div class="logo">
-                    <img src="https://cdn.discordapp.com/attachments/892066506005950504/893116777071005786/logo.jpg" alt="logo du site"/>
+                <!--div de présentation + logo-->
+                <div class="presentation">
+                    <div class="logo">
+                        <img
+                            src="https://cdn.discordapp.com/attachments/892066506005950504/893116777071005786/logo.jpg"
+                            alt="logo du site" />
+                    </div>
+                    <div class="nomPrenom">
+                        <h1>Godeline Boy</h1>
+                        <p>Podologue - 06 67 05 82 17</p>
+                    </div>
                 </div>
-                <div class="nomPrenom">
-                    <h1>Godeline Boy</h1>
-                    <p>Podologue - 06 67 05 82 17</p>
+
+                <!--div pour bouton rdv-->
+                <div class="rendezVous">
+                    <p><a href="https://www.doctolib.fr" target="_blanck">Prendre
+                            un RDV</a></p>
                 </div>
-            </div>
-        
-        <!--div pour bouton rdv-->
-            <div class="rendezVous">
-                <p><a href ="https://www.doctolib.fr" target="_blanck">Prendre un RDV</a></p>
-            </div>
-        
-        <!--div pour menu desktop-->
-            <div class="menu">
-                <div class="accueil"><a href="accueil.html">Accueil</a></div>
-                <div class="lesSoins"><a href="lesSoins.html">Les soins</a></div>
-                <div class="quiSuisJe"><a href="quiSuisJe.html">Qui suis-je ?</a></div>
-                <div class="contact"><a href="contact.html">Contact</a></div>
-            </div>
-        
-</header>
 
-<section>
+                <!--div pour menu desktop-->
+                <!--navigation bar-->
 
-    <div class="containerFormulaire">
-        <h1>CONTACTEZ-MOI</h1>
-        <p>Géraldine de Rodez</p><br>
-        <p>06 67 05 82 17</p>
-        <br><br>
-<!--HTML Formulaire --->
+                <nav>
+                    <!--      -->
 
-<div class="form">
-    <form method="post" action="traitement.php">
-    
-    <div class="formulaire1">
-    
-        <div class="formNom">
-            <label for="nom">Nom</label><br>
-            <input type="text" id="nom" name="nom"><br>
-        </div>
-    
-        <div class="formPrenom">
-            <label for="prenom">Prénom</label><br>
-            <input type="text" id="prenom" name="prenom"><br>
-        </div>
-    </div>
+                    <!--div pour menu desktop-->
+                    <label for="toggle">☰</label>
+                    <input type="checkbox" id="toggle" />
+                    <div class="main_pages">
+                        <a href="accueil.html">Accueil</a>
+                        <a href="lesSoins.html">Les soins</a>
+                        <a href="quiSuisJe.html">Qui suis-je ?</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </nav>
 
-    <div class="formulaire2">
+            </header>
 
-        <div class="formEmail">
-            <label for="email">E-mail *</label><br>
-            <input type="text" id="email" name="email"><br>
-        </div>
-    
-        <div class="formTel">
-            <label for="telephone">Téléphone</label><br>
-            <input type="text" id="telephone" name="telephone"><br>
-        </div>
-    </div>
+            <section>
 
-    <div class="formulaire3">
-    
-        <div class="formObj">
-            <label for="objet">Objet</label><br>
-            <input type="text" id="objet" name="objet"><br>
-        </div>
-    
-        <div class="formMessage">
-            <label for="message">Laissez un message</label><br>
-            <textarea id="mesaasge" name="message"></textarea>
-        </div>
-    </div>
+                <div class="containerContactezMoi">
+                    <h1>Contact</h1>
+                    <p>Godeline Boy</p>
+                    <p>06 67 05 82 17</p>
+                    <br><br>
+                    <!--HTML Formulaire --->
 
-    <div class="submit">
-        <input type="submit" value="ENVOYER">
-    </div>
+                    <div class="form">
+                        <form method="post" action="traitement.php">
 
-    </form>
-</div>
-    
+                            <div class="formulaire1">
 
+                                <div class="formNom">
+                                    <label for="nom">Nom</label><br>
+                                    <input type="text" id="nom" name="nom"><br>
+                                </div>
 
+                                <div class="formPrenom">
+                                    <label for="prenom">Prénom</label><br>
+                                    <input type="text" id="prenom"
+                                        name="prenom"><br>
+                                </div>
+                            </div>
 
+                            <div class="formulaire2">
 
+                                <div class="formEmail">
+                                    <label for="email">E-mail *</label><br>
+                                    <input type="text" id="email" name="email"><br>
+                                </div>
 
+                                <div class="formTel">
+                                    <label for="telephone">Téléphone</label><br>
+                                    <input type="text" id="telephone"
+                                        name="telephone"><br>
+                                </div>
+                            </div>
 
+                            <div class="formulaire3">
+
+                                <div class="formObj">
+                                    <label for="objet">Objet</label><br>
+                                    <input type="text" id="objet" name="objet"><br>
+                                </div>
+
+                                <div class="formMessage">
+                                    <label for="message">Laissez un message</label><br>
+                                    <textarea id="mesaasge" name="message"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="submit">
+                                <input type="submit" value="ENVOYER">
+                            </div>
+
+                        </form>
+                    </div>
 
 
 
-        <h2>SUIVEZ MOI</h2>
-<div class="logoReseaux">
-        <a href="https://fr-fr.facebook.com" target = "_blanck"><img src="https://image.flaticon.com/icons/png/512/733/733547.png" alt="logo Facebook"></a>
-        <a href="https://instagram.com" target = "_blanck"><img src="https://as1.ftcdn.net/v2/jpg/03/13/76/04/1000_F_313760421_txS6xrTba0qWshvmassQbCXbSlBpW5lG.jpg" alt="logo Instagram"></a>
-        <a href="https://fr.linkedin.com" target = "_blanck"><img src="https://image.flaticon.com/icons/png/512/174/174857.png" alt="logo LinkedIng"></a>
-    </div>
-</div>
 
-<!--A FAIRE Javascript ! Formulaire sur js dans cet espace -->
 
-    <div class="containerMonCabinet">
-        
-        <h1>MON CABINET</h1>
-        <p>localisation</p>
-        <p>552, chemin du plat - 01600 REYRIEUX</p>
-        <p>Prendre un rendez-vous</p>
-        <p>Tel : 06.67.05.82.17</p>
 
-<!--A FAIRE Javascript ! Et emplacement de la MAP-->
-        <h2>Heures d'Ouverture</h2>
 
-        <div class="matin">
-            <h1>Le matin :</h1>
-            <ul>
-                <li>Lundi : 9h00 - 12h00</li>
-                <li>Mardi : 9h00 - 12h00</li>
-                <li>Jeudi : 9h00 - 12h00</li>
-                <li>Vendredi : 9h00 - 12h00</li>
 
-            <h1>L'après-midi :</h1>
-            <ul>
-                <li>Mardi : 14h00 - 19h00</li>
-                <li>Mercredi : 14h00 - 19h00</li>
-                <li>Vendredi : 14h00 - 19h00</li>
-            </ul>
-        </div>
-    </div>
-</section>
 
-<!--A FAIRE Javascript! Intégrer le scroll avec js-->  
-<footer>
-    <div class="containerfooter">
-        <p>Godeline Boy, <br> Réflexologie à Reyrieux et périphérie de lyon-Nord <br> 06 67 05 82 17</p>
-    </div>
 
-</footer>
-</body>
+                    <div class="logoReseaux">
+                        <a href="https://fr-fr.facebook.com" target="_blanck"><img
+                                src="https://image.flaticon.com/icons/png/512/733/733547.png"
+                                alt="logo Facebook"></a>
+                        <a href="https://instagram.com" target="_blanck"><img
+                                src="img/inst.png" alt="logo Instagram"></a>
+                        <a href="https://fr.linkedin.com" target="_blanck"><img
+                                src="https://image.flaticon.com/icons/png/512/174/174857.png"
+                                alt="logo LinkedIng"></a>
+                    </div>
+                </div>
 
-</html> 
+
+
+                <div class="containerMonCabinet">
+
+                    <h1>Mon Cabinet</h1>
+                    <p>localisation</p>
+                    <p>552, chemin du plat - 01600 REYRIEUX</p>
+                    <p>Tel : 06.67.05.82.17</p>
+
+                    <div class="mapHoraire">
+                        <!--A FAIRE Javascript ! Et emplacement de la MAP-->
+                        <div class="map-responsive">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2775.291585521865!2d4.816486315781605!3d45.925471710566065!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4972de42fe607%3A0x2963cb3028df316e!2s552%20Chem.%20du%20Plat%2C%2001600%20Reyrieux!5e0!3m2!1sfr!2sfr!4v1633615153349!5m2!1sfr!2sfr"
+                                style="border:0;" allowfullscreen=""
+                                loading="lazy"></iframe>
+                        </div>
+
+
+
+                        <div class="horaires">
+                            <h2>Heures d'Ouverture</h2>
+                            <div class="matin">
+                                <p>Le matin :</p>
+                                <ul>
+                                    <li>Lundi : 9h00 - 12h00</li>
+                                    <li>Mardi : 9h00 - 12h00</li>
+                                    <li>Jeudi : 9h00 - 12h00</li>
+                                    <li>Vendredi : 9h00 - 12h00</li>
+                                </div>
+
+                                <div class="apresMidi">
+                                    <p>L'après-midi :</p>
+                                    <ul>
+                                        <li>Mardi : 14h00 - 19h00</li>
+                                        <li>Mercredi : 14h00 - 19h00</li>
+                                        <li>Vendredi : 14h00 - 19h00</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <!--A FAIRE Javascript! Intégrer le scroll avec js-->
+                <footer>
+                    <div class="containerFooter">
+                        <h1>Godeline Boy</h1>
+                        <p>Réflexologie à Reyrieux et périphérie de lyon-Nord
+                            <br> 06 67 05 82 17</p>
+                    </div>
+
+                </footer>
+            </body>
+
+        </html>

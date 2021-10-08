@@ -1,96 +1,270 @@
 /* body  */
 
-
 /* css logo */
 
 .presentation {
-    background-color: yellow;
+  background-color: white;
 }
 
-.nomPrenom{background-color: tomato; display: flex; justify-content: center;font-style: italic;
-    size: 2;font-family: 'Courier New', Courier, monospace; align-items: center;flex-direction: column;}
-     
-.logo { margin-right: 0;width: 45px;height: 45px; }
-.menu.a { text-decoration: nan; color:rgb(6, 114, 114) ;font-size: 10px; margin-right: 10px;}
-.a.hover { color: white;}
+.nomPrenom {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  size: 2;
+  font-family: "Courier New", Courier, monospace;
+  align-items: center;
+  flex-direction: column;
+}
 
+.logo {
+  margin-right: 0;
+  width: 45px;
+  height: 45px;
+}
+.main_pages.a {
+  text-decoration: nan;
+  color: rgb(6, 114, 114);
+  font-size: 10px;
+  margin-right: 10px;
+}
+.a.hover {
+  color: white;
+}
 
 /* button rdv*/
-.rendezvous{
-   background-color: #25748F;font-family: 'Courier New', Courier, monospace;margin-bottom: 40px;
-} 
+.rendezvous {
+  background-color: #25748f;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 40px;
+}
 /*page accuiel*/
-.acueil img {max-width: 800px; position: relative; }
-.phrasse{position:absolute;top: 200px; display: flex; justify-content: center;font-size: 10px;}
+.acueil img {
+  max-width: 800px;
+  position: relative;
+}
+.phrasse {
+  position: absolute;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+}
 
-.buttonCarossel{  position: absolute; background-color: transparent; font-size: 20px;}
-#btnLeft{ margin-left: 200px;}
-#btnRight{margin-right: 200px;     }
-.logoReseau{ display: flex;}
+.buttonCarossel {
+  position: absolute;
+  background-color: transparent;
+  font-size: 20px;
+}
+#btnLeft {
+  margin-left: 200px;
+}
+#btnRight {
+  margin-right: 200px;
+}
+.logoReseau {
+  display: flex;
+}
+
+/* bouton burger*/
+nav {
+  margin: 100px auto;
+  width: 50%;
+  height: 100px;
+  background: #48435c;
+}
+
+nav .main_pages {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav .main_pages a {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+/* CSS mobile - page contact*/
+
+.containerContactezMoi {
+  background-color: white;
+  color: rgb(26, 115, 138);
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: 0px;
+  border: 30px solid lightgrey;
+  font-size: 16px;
+  padding: 5px;
+}
+
+.containerContactezMoi h1 {
+  font-size: 25px;
+}
+
+.logoReseaux {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+img {
+  width: 40px;
+  height: 40px;
+}
+
+.containerMonCabinet {
+  background-color: white;
+  color: rgb(26, 115, 138);
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: 0px;
+  border: 30px solid lightgrey;
+  font-size: 16px;
+  padding-bottom: 20px;
+  padding-left: 7px;
+}
+
+.containerMonCabinet h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 15px;
+}
+
+.map-responsive {
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
+}
 
 /*Css Formulaire*/
 
-.form{
-    font-size: 15px;
-    color:#25748F;
+.form {
+  font-size: 15px;
+  color: #25748f;
 }
 
-.formulaire1{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    padding: ;
+.formulaire1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 
-.formulaire2{
-    display: flex;
-    flex-direction: row;
-    padding: 5px;
+.formulaire2 {
+  display: flex;
+  flex-direction: row;
+  padding: 5px;
 }
 
-.formulaire3{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
+.formulaire3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-input{
-    width: 150px;
-    height: 20px;
+input {
+  width: 150px;
+  height: 20px;
 }
-.formulaire1, input{
-    display: flex;
-    justify-content: space-around;  
-}
-
-.formulaire2, input{
-    display: flex;
-    justify-content: space-around;
-}
-.formObj input{
-    width: 320px;
+.formulaire1,
+input {
+  display: flex;
+  justify-content: space-around;
 }
 
-.formMessage textarea{
-    width: 320px;
-    height: 100px;
+.formulaire2,
+input {
+  display: flex;
+  justify-content: space-around;
+}
+.formObj input {
+  width: 320px;
 }
 
-.submit input{
-    width: 80px;
-    height: 40px;
-    display: flex;
-    background-color: #25748F;
-    border-radius: 5px;
-
+.formMessage textarea {
+  width: 320px;
+  height: 100px;
 }
 
-input{
-    margin: 10px;
+.submit input {
+  width: 80px;
+  height: 40px;
+  display: flex;
+  background-color: #25748f;
+  border-radius: 5px;
 }
 
-.submit{
-    display: flex;
-    justify-content: center;
+input {
+  margin: 10px;
 }
 
+.submit {
+  display: flex;
+  justify-content: center;
+}
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 80%;
+  width: 80%;
+  position: absolute;
+  margin-left: 25px;
+}
+
+.horaires {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  font-size: 10px;
+}
+
+.matin p {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.apresMidi {
+  position: relative;
+  left: 1px;
+}
+.apresMidi p {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.containerFooter {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  text-align: center;
+  background-color: rgb(26, 115, 138);
+  color: white;
+  margin: max-content;
+  padding: 8px;
+}
+
+.containerFooter h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+}
