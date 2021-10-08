@@ -1,127 +1,158 @@
 /* CSS Desktop - page contact*/
 
-.containerContactezMoi{
-    background-color: white;
-    color: rgb(26, 115, 138);
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    margin:0px;
-    border: 80px solid rgb(26, 115, 138);
-    font-size: 23px;
-    padding: 10px;
+.containerContactezMoi {
+  background-color: white;
+  color: rgb(26, 115, 138);
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: 0px;
+  border: 80px solid rgb(26, 115, 138);
+  font-size: 23px;
+  padding: 10px;
 }
 
-.containerContactezMoi h1{
-    font-size: 70px;
+.containerContactezMoi h1 {
+  font-size: 70px;
 }
 
 .logoReseaux {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
-.logoReseaux  a{
-    padding: 2rem;
+.logoReseaux a {
+  padding: 2rem;
 }
 
-img{
-    width: 80px;
-    height: 80px;
+img {
+  width: 80px;
+  height: 80px;
 }
 
-#logoinsta{
-    width: 50px;
+#logoinsta {
+  width: 50px;
 }
-.containerMonCabinet{
-    background-color: white;
-    color: rgb(26, 115, 138);
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    margin:0px;
-    border: 80px solid rgb(26, 115, 138);
-    font-size: 23px;
-}
-
-.containerMonCabinet h1{
-    font-size: 70px;
+.containerMonCabinet {
+  background-color: white;
+  color: rgb(26, 115, 138);
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: 0px;
+  border: 80px solid rgb(26, 115, 138);
+  font-size: 23px;
 }
 
-.mapHoraire{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 10px;
+.containerMonCabinet h1 {
+  font-size: 70px;
+}
+
+.mapHoraire {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10px;
 }
 .map-responsive {
-    width: 50%;
-    }
-    
+  width: 50%;
+}
+
 .map-responsive iframe {
-width: 100%;
-min-height:500px;
+  width: 100%;
+  min-height: 500px;
 }
 
-.horaires{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    padding: 30px; 
-    padding-top: 30px;
-    padding-left: 250px;
-
+.horaires {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 30px;
+  padding-top: 30px;
+  padding-left: 250px;
 }
 
-ul{
-    list-style-type: none;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 23px;
-    text-align: justify;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+ul {
+  list-style-type: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 23px;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-h2{
-    font-size: 30px;
-    font-weight: bold;
-    text-decoration: underline;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    padding: 40px;
-    
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 40px;
 }
 
-.matin p{
-    font-size: 25px;
-    font-weight: bold;
-    text-decoration: underline;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+.matin p {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-.apresMidi p{
-    font-size: 25px;
-    font-weight: bold;
-    text-decoration: underline;
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end;
+.apresMidi p {
+  font-size: 25px;
+  font-weight: bold;
+  text-decoration: underline;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
-.containerFooter{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 23px;
-    text-align: center;
-    background-color: rgb(26, 115, 138);
-    color: white;
-    margin: max-content;
-    padding: 8px;
+.containerFooter {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 23px;
+  text-align: center;
+  background-color: rgb(26, 115, 138);
+  color: white;
+  margin: max-content;
+  padding: 8px;
 }
 
-.containerFooter h1{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 30px;
+.containerFooter h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
 }
+/* début CSS header */
+nav {
+  margin: 100px auto;
+  width: 50%;
+  height: 100px;
+  background: #48435c;
+}
+
+nav .main_pages {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav .main_pages a {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: white;
+}
+
+nav a:hover {
+  background: #5a5766;
+}
+
+label,
+#toggle {
+  display: none;
+}
+/* fin CSS header */

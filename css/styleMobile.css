@@ -1,145 +1,205 @@
 /* body  */
 
-
 /* css logo */
 
 .presentation {
-    background-color: yellow;
+  background-color: white;
 }
 
-.nomPrenom{background-color: tomato; display: flex; justify-content: center;font-style: italic;
-    size: 2;font-family: 'Courier New', Courier, monospace; align-items: center;flex-direction: column;}
-     
-.logo { margin-right: 0;width: 45px;height: 45px; }
-.menu.a { text-decoration: nan; color:rgb(6, 114, 114) ;font-size: 10px; margin-right: 10px;}
-.a.hover { color: white;}
+.nomPrenom {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  font-style: italic;
+  size: 2;
+  font-family: "Courier New", Courier, monospace;
+  align-items: center;
+  flex-direction: column;
+}
 
+.logo {
+  margin-right: 0;
+  width: 45px;
+  height: 45px;
+}
+.main_pages.a {
+  text-decoration: nan;
+  color: rgb(6, 114, 114);
+  font-size: 10px;
+  margin-right: 10px;
+}
+.a.hover {
+  color: white;
+}
 
 /* button rdv*/
-.rendezvous{
-   background-color: #25748F;font-family: 'Courier New', Courier, monospace;margin-bottom: 40px;
-} 
+.rendezvous {
+  background-color: #25748f;
+  font-family: "Courier New", Courier, monospace;
+  margin-bottom: 40px;
+}
 /*page accuiel*/
-.acueil img {max-width: 800px; position: relative; }
-.phrasse{position:absolute;top: 200px; display: flex; justify-content: center;font-size: 10px;}
+.acueil img {
+  max-width: 800px;
+  position: relative;
+}
+.phrasse {
+  position: absolute;
+  top: 200px;
+  display: flex;
+  justify-content: center;
+  font-size: 10px;
+}
 
-.buttonCarossel{  position: absolute; background-color: transparent; font-size: 20px;}
-#btnLeft{ margin-left: 200px;}
-#btnRight{margin-right: 200px;     }
-.logoReseau{ display: flex;}
+.buttonCarossel {
+  position: absolute;
+  background-color: transparent;
+  font-size: 20px;
+}
+#btnLeft {
+  margin-left: 200px;
+}
+#btnRight {
+  margin-right: 200px;
+}
+.logoReseau {
+  display: flex;
+}
 
+/* bouton burger*/
+nav {
+  margin: 100px auto;
+  width: 50%;
+  height: 100px;
+  background: #48435c;
+}
+
+nav .main_pages {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+nav .main_pages a {
+  width: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+  color: white;
+}
 
 /* CSS mobile - page contact*/
 
-.containerContactezMoi{
-    background-color: white;
-    color: rgb(26, 115, 138);
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    margin:0px;
-    border: 30px solid lightgrey;
-    font-size: 16px;
-    padding: 5px;
+.containerContactezMoi {
+  background-color: white;
+  color: rgb(26, 115, 138);
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: 0px;
+  border: 30px solid lightgrey;
+  font-size: 16px;
+  padding: 5px;
 }
 
-.containerContactezMoi h1{
-    font-size: 25px;
+.containerContactezMoi h1 {
+  font-size: 25px;
 }
 
-.logoReseaux{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+.logoReseaux {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
-img{
-    width: 40px;
-    height: 40px;
-}
-
-.containerMonCabinet{
-    background-color: white;
-    color: rgb(26, 115, 138);
-    font-family: 'Courier New', Courier, monospace;
-    text-align: center;
-    margin:0px;
-    border: 30px solid lightgrey;
-    font-size: 16px;
-    padding-bottom:20px;
-    padding-left: 7px;
+img {
+  width: 40px;
+  height: 40px;
 }
 
-.containerMonCabinet h1{
-    font-size: 25px;
+.containerMonCabinet {
+  background-color: white;
+  color: rgb(26, 115, 138);
+  font-family: "Courier New", Courier, monospace;
+  text-align: center;
+  margin: 0px;
+  border: 30px solid lightgrey;
+  font-size: 16px;
+  padding-bottom: 20px;
+  padding-left: 7px;
 }
 
-h2{
-    font-size: 15px;
+.containerMonCabinet h1 {
+  font-size: 25px;
+}
+
+h2 {
+  font-size: 15px;
 }
 
 .map-responsive {
-    overflow:hidden;
-    padding-bottom:56.25%;
-    position:relative;>
-    height:0;
-    }
-    
-    .map-responsive iframe {
-    left:0;
-    top:0;
-    height:80%;
-    width: 80%;
-    position:absolute;
-    margin-left: 25px;
-    }
-
-.horaires{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+  height: 0;
 }
 
-ul{
-    list-style-type: none;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 10px;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
-    padding: 0px;
-    font-size: 10px;
+.map-responsive iframe {
+  left: 0;
+  top: 0;
+  height: 80%;
+  width: 80%;
+  position: absolute;
+  margin-left: 25px;
 }
 
-
-.matin p{
-    display: flex;
-    flex-direction: column;
-    font-weight: bold;
-    font-size: 13px;
+.horaires {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.apresMidi{
-    position: relative;
-    left: 1px;
-}
-.apresMidi p{
-    display:flex;
-    flex-direction: column;
-    font-weight: bold;
-    font-size: 13px;
-}
-
-.containerFooter{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 12px;
-    text-align: center;
-    background-color: rgb(26, 115, 138);
-    color: white;
-    margin: max-content;
-    padding: 8px;
+ul {
+  list-style-type: none;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 10px;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  font-size: 10px;
 }
 
-.containerFooter h1{
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 15px;
+.matin p {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.apresMidi {
+  position: relative;
+  left: 1px;
+}
+.apresMidi p {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.containerFooter {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  text-align: center;
+  background-color: rgb(26, 115, 138);
+  color: white;
+  margin: max-content;
+  padding: 8px;
+}
+
+.containerFooter h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
 }
